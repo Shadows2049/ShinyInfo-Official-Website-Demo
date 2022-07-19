@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div>
     <navigation />
   </div>
 </template>
@@ -10,10 +10,3 @@ export default {
   components: { navigation }
 }
 </script>
-
-<style scoped>
-.main {
-  padding: 0;
-  height: 180px;
-}
-</style>
