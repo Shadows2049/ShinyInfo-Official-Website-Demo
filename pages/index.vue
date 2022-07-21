@@ -1,19 +1,118 @@
 <template>
   <div class="main">
+    <!-- 导航栏 -->
     <navigation />
+    <!-- 走马灯 -->
+    <carousel />
+    <!-- 内容 -->
+    <el-container class="content-1">
+      <el-heade height="184px">
+        <h1 class="h-1">为您提供优质的业务服务</h1>
+        <h4 class="h-2">稳定可靠的运维服务，全面满足用户业务需求</h4>
+      </el-heade>
+
+      <el-footer>
+        <div class="navi">
+          <el-menu
+            :default-active="activeMenu"
+            class="el-menu-demo"
+            mode="horizontal"
+            background-color="#FFFFFF"
+            text-color="#333333"
+            active-text-color="#1370EE"
+          >
+            <el-menu-item index="1" style="margin-right: 250px">
+              <img
+                src="@/images/首页/IT运维管理.svg"
+                alt=""
+                style="margin-right: 12px"
+              />
+              IT运维管理</el-menu-item
+            >
+            <el-menu-item index="2" style="margin-right: 250px"
+              ><img
+                src="@/images/首页/可观察性.svg"
+                alt=""
+                style="margin-right: 12px"
+              />可观察性</el-menu-item
+            >
+            <el-menu-item index="3"
+              ><img
+                src="@/images/首页/新一代安全运营.svg"
+                alt=""
+                style="margin-right: 12px"
+              />新一代安全运营</el-menu-item
+            >
+          </el-menu>
+        </div>
+      </el-footer>
+    </el-container>
   </div>
 </template>
 
 <script>
 import navigation from '@/components/Navigation.vue'
+import carousel from '@/components/Carousel.vue'
 export default {
-  components: { navigation }
+  components: { navigation, carousel },
+  data() {
+    return {
+      activeIndex: '1'
+    }
+  }
 }
 </script>
 
 <style scoped>
+@font-face {
+  font-family: PSM;
+  src: url('@/fonts/PingFang-Medium.ttf');
+}
 .main {
   padding: 0;
   height: 180px;
+}
+.content-1 {
+  background: #ffffff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  height: 252px;
+}
+.h-1 {
+  font-family: PSM;
+  font-size: 36px;
+  color: #1370ee;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 50px;
+}
+.h-2 {
+  font-family: PSR;
+  font-size: 16px;
+  color: #666a72;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.el-menu-item {
+  font-family: PSR;
+  height: 56px;
+  line-height: 56px;
+  font-size: 18px;
+  color: #303133;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer.el-footer {
+  position: relative;
+  top: 34px;
+  /* margin-bottom: 10px; */
 }
 </style>

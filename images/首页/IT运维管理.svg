@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IT运维管理</title>
+    <defs>
+        <rect id="path-1" x="4" y="5" width="40" height="47" rx="3.26857143"></rect>
+        <filter x="-6.2%" y="-5.3%" width="112.5%" height="110.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.215686275   0 0 0 0 0.168627451   0 0 0 0 0.905882353  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="10" y="14" width="27" height="3" rx="1.5"></rect>
+        <filter x="-25.9%" y="-166.7%" width="151.9%" height="566.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.439215686   0 0 0 0 0.933333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="10" y="26" width="17" height="3" rx="1.5"></rect>
+        <filter x="-41.2%" y="-166.7%" width="182.4%" height="566.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.439215686   0 0 0 0 0.933333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="10" y="36" width="17" height="3" rx="1.5"></rect>
+        <filter x="-41.2%" y="-166.7%" width="182.4%" height="566.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.439215686   0 0 0 0 0.933333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="IT运维管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M55.0835404,49.7581726 C55.0043166,49.8390702 54.9382967,49.9064848 54.8590729,49.9873824 C54.1328544,50.6615287 53.1821683,51.0255677 52.1918704,50.9986019 C51.2675923,50.9986019 50.3697222,50.6345629 49.6963196,49.9873824 L43.8812901,44.0495015 C43.0098279,44.3730917 42.0855498,44.5214039 41.1612717,44.5065727 C36.7247369,44.5065727 33.0777997,40.8810137 33.0012166,36.3359191 C32.9695271,34.4671855 33.5663467,33.0083328 33.6878232,32.7548538 C33.8515525,32.4110392 34.0667772,32.1926158 34.4008377,32.1238528 C34.8576952,32.0780109 35.0729199,32.3234002 35.0729199,32.3234002 L38.4940692,35.487843 L40.6595207,33.2752948 L37.5037713,30.0393924 C37.3717316,29.8384968 37.3057117,29.609287 37.3321197,29.3652461 C37.3321197,29.0281729 37.5037713,28.8542431 37.8338706,28.6789651 C38.8769844,28.1935797 40.0125261,27.9630217 41.1612717,28.0048188 C45.6110105,28.0991992 49.1628791,31.8070041 49.1628791,36.3359191 C49.1628791,36.6729923 48.9912274,37.523765 48.8327798,38.5484674 L48.8327798,38.5619503 L54.8590729,44.7155581 C56.2851019,46.0368849 56.3907337,48.3020165 55.0835404,49.7581726" id="Fill-1" fill="#1370EE"></path>
+        <g id="矩形">
+            <use fill-opacity="0.2" fill="#1370EE" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <rect stroke-opacity="0.3" stroke="#85B1EE" stroke-width="1.08952381" stroke-linejoin="square" x="4.5447619" y="5.5447619" width="38.9104762" height="45.9104762" rx="3.26857143"></rect>
+        </g>
+        <g id="矩形">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <g id="矩形备份-11">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+        </g>
+        <g id="矩形备份-12">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+        </g>
+        <rect id="矩形" x="0" y="0" width="56" height="56"></rect>
+    </g>
+</svg>
