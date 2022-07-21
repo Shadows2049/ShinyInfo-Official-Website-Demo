@@ -21,7 +21,11 @@
             text-color="#333333"
             active-text-color="#1370EE"
           >
-            <el-menu-item index="1" style="margin-right: 250px">
+            <el-menu-item
+              index="1"
+              style="margin-right: 250px"
+              @click="changeFlag(1)"
+            >
               <img
                 src="@/images/首页/IT运维管理.svg"
                 alt=""
@@ -29,14 +33,17 @@
               />
               IT运维管理</el-menu-item
             >
-            <el-menu-item index="2" style="margin-right: 250px"
+            <el-menu-item
+              index="2"
+              style="margin-right: 250px"
+              @click="changeFlag(2)"
               ><img
                 src="@/images/首页/可观察性.svg"
                 alt=""
                 style="margin-right: 12px"
               />可观察性</el-menu-item
             >
-            <el-menu-item index="3"
+            <el-menu-item index="3" @click="changeFlag(3)"
               ><img
                 src="@/images/首页/新一代安全运营.svg"
                 alt=""
@@ -47,17 +54,26 @@
         </div>
       </el-footer>
     </el-container>
+    <div v-if="flag === 1"><content1 /></div>
   </div>
 </template>
 
 <script>
 import navigation from '@/components/Navigation.vue'
 import carousel from '@/components/Carousel.vue'
+import content1 from '@/components/Content_1.vue'
 export default {
-  components: { navigation, carousel },
+  components: { navigation, carousel, content1 },
   data() {
     return {
-      activeIndex: '1'
+      activeIndex: '1',
+      flag: 1
+    }
+  },
+  methods: {
+    changeFlag(param) {
+      this.flag = param
+      console.log(this.flag)
     }
   }
 }
