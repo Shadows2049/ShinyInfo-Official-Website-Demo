@@ -5,16 +5,23 @@
       class="el-menu-demo"
       mode="horizontal"
       router
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b"
+      background-color="#FFFFFF"
+      text-color="#333333"
+      active-text-color="#1370EE"
     >
-      <el-menu-item index="/">首页</el-menu-item>
+      <div class="logo">
+        <el-menu-item index="/"
+          ><img
+            src="@/images/首页/logo深蓝色版.png"
+            alt="logo"
+            style="width: 160px"
+        /></el-menu-item>
+      </div>
       <div class="navi">
         <el-submenu index="1" class="sub1">
           <template slot="title">产品</template>
           <el-submenu index="1-1">
-            <template slot="title">IT运维管理</template>
+            <template slot="title" class="s">IT运维管理</template>
             <el-menu-item index="/%E5%9F%BA%E7%A1%80%E7%9B%91%E6%8E%A7">
               基础监控</el-menu-item
             >
@@ -100,9 +107,20 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: PSR;
+  src: url('@/fonts/PingFangSC-Regular.ttf');
+}
+
 :deep(.link) {
   text-decoration: none;
   color: white;
+}
+
+.content-container {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 0;
 }
 .el-menu {
   height: 80px;
@@ -111,11 +129,47 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 80px;
 }
 .sub1 {
-  margin-right: 50px;
 }
 .sub2 {
-  margin-right: 50px;
+}
+:deep(.el-submenu__icon-arrow) {
+  position: relative;
+  top: 5%;
+  margin-left: 32px;
+  transition: transform 0.3s;
+  font-size: 18px;
+}
+
+:deep(.el-submenu__title) {
+  font-family: PSR;
+  height: 56px;
+  line-height: 56px;
+  font-size: 16px;
+  color: #303133;
+  padding: 0 20px;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.el-menu--horizontal .el-menu .el-menu-item,
+.el-menu--horizontal .el-menu .el-submenu__title {
+  font-family: PSR;
+  font-size: 14px;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom: none;
+}
+.logo {
+  position: absolute;
+  left: 360px;
+  top: 15px;
 }
 </style>

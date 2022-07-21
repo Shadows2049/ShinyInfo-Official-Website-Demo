@@ -1,12 +1,15 @@
 <template lang="">
   <div>
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 <script>
 export default {
-  name: '',
-  
+  name: ''
 }
 </script>
-<style lang=""></style>
+<style>
+body {
+  margin: 0;
+}
+</style>
