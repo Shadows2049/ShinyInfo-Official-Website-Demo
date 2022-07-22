@@ -2,7 +2,7 @@
   <div class="content-container">
     <div class="home">
       <!-- 容器(外层盒子) -->
-      <i @click="btnCilck(407)" class="left-btn">
+      <i @click="btnCilck(412)" class="left-btn">
         <img src="@/images/首页/上一个.svg" alt=""
       /></i>
       <div
@@ -13,7 +13,7 @@
       >
         <!-- 左箭头 (<) -->
 
-        <ul
+        <div
           ref="scrollBody"
           class="scroll-body"
           :style="{ left: tagBodyLeft + 'px' }"
@@ -28,10 +28,10 @@
               </div>
             </el-card>
           </div>
-        </ul>
+        </div>
         <!-- 右箭头 (>) -->
       </div>
-      <i @click="btnCilck(-407)" class="right-btn"
+      <i @click="btnCilck(-412)" class="right-btn"
         ><img src="@/images/首页/下一个.svg" alt=""
       /></i>
     </div>
@@ -56,20 +56,20 @@ export default {
           content: '一键部署，提供跨平台自动化编排能力。'
         },
         {
-          title: '自动化运维',
-          content: '一键部署，提供跨平台自动化编排能力。'
+          title: 'data',
+          content: 'data'
         },
         {
-          title: '自动化运维',
-          content: '一键部署，提供跨平台自动化编排能力。'
+          title: 'data',
+          content: 'data'
         },
         {
-          title: '自动化运维',
-          content: '一键部署，提供跨平台自动化编排能力。'
+          title: 'data',
+          content: 'data。'
         },
         {
-          title: '自动化运维',
-          content: '一键部署，提供跨平台自动化编排能力。'
+          title: 'data',
+          content: 'data。'
         }
       ],
       tagBodyLeft: 0
@@ -106,7 +106,7 @@ export default {
 /* 外层盒子 */
 .scroll-box {
   position: relative;
-  width: 1270px;
+  width: 1236px;
   overflow: hidden;
 }
 /* 移动的盒子 */
@@ -130,7 +130,7 @@ export default {
 .left-btn,
 .right-btn {
   position: absolute;
-  top: 100px;
+  top: 80px;
   width: 50px;
   height: 40px;
   display: flex;
@@ -141,16 +141,16 @@ export default {
   cursor: pointer;
 }
 .left-btn {
-  margin-right: 80%;
+  margin-right: 1370px;
 }
 .right-btn {
   z-index: inherit;
-  margin-left: 80%;
+  margin-left: 1370px;
 }
 .box-card {
   width: 386px;
   height: 180px;
-  margin-left: 21px;
+  margin: 12px;
   background: #ffffff;
   box-shadow: 0 0 20px 0 rgba(19, 112, 238, 0.15), inset 5px 0 0 0 #1370ee;
   border-radius: 12px;

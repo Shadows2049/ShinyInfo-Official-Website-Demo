@@ -6,10 +6,10 @@
     <carousel />
     <!-- 内容 -->
     <el-container class="content-1">
-      <el-heade height="184px">
+      <el-header height="184px">
         <h1 class="h-1">为您提供优质的业务服务</h1>
         <h4 class="h-2">稳定可靠的运维服务，全面满足用户业务需求</h4>
-      </el-heade>
+      </el-header>
 
       <el-footer>
         <div class="navi">
@@ -60,6 +60,7 @@
     <div class="content4">
       <content4 />
     </div>
+    <div class="content5"><content5 /></div>
   </div>
 </template>
 
@@ -68,8 +69,9 @@ import navigation from '@/components/Navigation.vue'
 import carousel from '@/components/Carousel.vue'
 import content1 from '@/components/Content_1.vue'
 import content4 from '@/components/Content_4.vue'
+import content5 from '@/components/Content_5.vue'
 export default {
-  components: { navigation, carousel, content1, content4 },
+  components: { navigation, carousel, content1, content4, content5 },
   data() {
     return {
       activeIndex: '1',
@@ -130,6 +132,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -21px;
 }
 
 footer.el-footer {
@@ -141,5 +144,10 @@ footer.el-footer {
   position: relative;
   height: 630px;
   background: rgba(19, 112, 238, 0.05);
+}
+.content5 {
+  position: relative;
+  height: 630px;
+  background-color: #ffffff;
 }
 </style>

@@ -92,6 +92,7 @@ export default {
   left: 100px;
 }
 .text-2 {
+  position: relative;
   font-family: PSR;
   font-size: 35px;
   color: #1370ee;
@@ -100,6 +101,6 @@ export default {
 }
 .scroll {
   position: relative;
-  margin-top: -60px;
+  margin-top: -30px;
 }
 </style>
