@@ -54,7 +54,12 @@
         </div>
       </el-footer>
     </el-container>
+    <!-- 子内容选择器 -->
     <div v-if="flag === 1"><content1 /></div>
+    <!-- 内容 -->
+    <div class="content4">
+      <content4 />
+    </div>
   </div>
 </template>
 
@@ -62,8 +67,9 @@
 import navigation from '@/components/Navigation.vue'
 import carousel from '@/components/Carousel.vue'
 import content1 from '@/components/Content_1.vue'
+import content4 from '@/components/Content_4.vue'
 export default {
-  components: { navigation, carousel, content1 },
+  components: { navigation, carousel, content1, content4 },
   data() {
     return {
       activeIndex: '1',
@@ -130,5 +136,10 @@ footer.el-footer {
   position: relative;
   top: 34px;
   /* margin-bottom: 10px; */
+}
+.content4 {
+  position: relative;
+  height: 630px;
+  background: rgba(19, 112, 238, 0.05);
 }
 </style>
