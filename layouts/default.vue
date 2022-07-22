@@ -1,5 +1,5 @@
 <template lang="">
-  <div>
+  <div class="container">
     <nuxt />
   </div>
 </template>
@@ -11,5 +11,8 @@ export default {
 <style>
 body {
   margin: 0;
+}
+.container {
+  min-width: 1500px !important;
 }
 </style>
