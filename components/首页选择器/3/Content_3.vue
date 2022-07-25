@@ -3,16 +3,16 @@
     <div class="content-container-1">
       <div class="text-1">
         <div class="text-1-1">
-          圣一信息运维管理将ITIL方法与实践管理经验融合，以CMDB为核心的一体化运维管理平台，实现统一监控、
-          自动化运维和服务流程化管理。基于大数据、算法、自动化智能场景，关联应用业务和服务管理流程，赋能企业用户智能化运维升级。
+          SIEM安全分析平台将各类异构安全设备告警数据实时采集，集中化存储和管理，结合最佳实践完成统一建模。
+          内置20多类300+安全场景实现安全风险快速识别，丰富的事件聚合框架实现安全事件关联分析，灵活的事件调查框架提高安全事件溯源和分析能力。
         </div>
       </div>
       <div class="image-1">
         <img
-          src="@/images/首页/IT运维管理插图.png"
+          src="@/images/首页/新一代安全运营插图.png"
           alt=""
           class="image-1-1"
-          style="height: 400px"
+          style="height: 300px"
         />
       </div>
     </div>
@@ -39,7 +39,7 @@
   </div>
 </template>
 <script>
-import scrollButton from '@/components/ScrollButton.vue'
+import scrollButton from './ScrollButton.vue'
 export default {
   data() {
     return {}
@@ -88,7 +88,7 @@ export default {
 }
 .image-1-1 {
   position: relative;
-  top: 60px;
+  top: 100px;
   left: 100px;
 }
 .text-2 {

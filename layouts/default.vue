@@ -20,6 +20,7 @@ body {
   min-width: 1500px !important;
 }
 .fc {
+  position: abso;
   bottom: 0px;
 }
 </style>

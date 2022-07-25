@@ -55,6 +55,8 @@
     </el-container>
 
     <div v-if="flag === 1"><content1 /></div>
+    <div v-if="flag === 2"><content2 /></div>
+    <div v-if="flag === 3"><content3 /></div>
     <!-- 内容 -->
     <div class="content4">
       <content4 />
@@ -66,7 +68,9 @@
 
 <script>
 import carousel from '@/components/Carousel.vue'
-import content1 from '@/components/Content_1.vue'
+import content1 from '@/components/首页选择器/1/Content_1.vue'
+import content2 from '@/components/首页选择器/2/Content_2.vue'
+import content3 from '@/components/首页选择器/3/Content_3.vue'
 import content4 from '@/components/Content_4.vue'
 import content5 from '@/components/Content_5.vue'
 import footerCustom from '@/components/Footer.vue'
@@ -74,13 +78,15 @@ export default {
   components: {
     carousel,
     content1,
+    content2,
+    content3,
     content4,
     content5,
     footerCustom
   },
   data() {
     return {
-      activeIndex: '1',
+      activeMenu: '1',
       flag: 1
     }
   },
