@@ -8,7 +8,7 @@
             <nuxt-link to="/IT运维管理" class="text">IT运维管理</nuxt-link
             ><br />
             <nuxt-link to="/可观察性" class="text">可观察性</nuxt-link><br />
-            <nuxt-link to="/新一代安全运营平台" class="text"
+            <nuxt-link to="/新一代安全运营" class="text"
               >新一代安全运营平台</nuxt-link
             ><br />
           </div>

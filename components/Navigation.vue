@@ -67,7 +67,7 @@
           >
           <el-menu-item
             index="/%E6%96%B0%E4%B8%80%E4%BB%A3%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5"
-            >新一代安全运营</el-menu-item
+            >新一代安全运营平台</el-menu-item
           >
         </el-submenu>
         <el-submenu index="3" class="sub3">

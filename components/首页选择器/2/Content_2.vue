@@ -52,6 +52,9 @@ export default {
 .content-container-1 {
   position: relative;
   height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .content-container-2 {
   position: relative;
@@ -63,32 +66,21 @@ export default {
   background-color: grey;
 }
 
-.text-1,
-.image-1 {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-}
-
 .text-1-1 {
   position: relative;
-  top: 212px;
   max-width: 520px;
   text-indent: 2em;
-  left: 110%;
   font-family: PSR;
   font-size: 18px;
   color: #333333;
   letter-spacing: 0;
   line-height: 24px;
 }
-.image-1 {
-  left: 15%;
-}
+
 .image-1-1 {
   position: relative;
-  top: 100px;
-  left: 100px;
+
+  right: 100px;
 }
 .text-2 {
   position: relative;
