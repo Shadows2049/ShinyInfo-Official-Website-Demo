@@ -138,7 +138,7 @@ export default {
   font-family: PSR;
   height: 56px;
   line-height: 56px;
-  font-size: 16px;
+  font-size: 17px;
   color: #303133;
   padding: 0 20px;
   list-style: none;
@@ -152,7 +152,7 @@ export default {
 .el-menu--horizontal .el-menu .el-menu-item,
 .el-menu--horizontal .el-menu .el-submenu__title {
   font-family: PSR;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .el-menu--horizontal > .el-menu-item.is-active {
