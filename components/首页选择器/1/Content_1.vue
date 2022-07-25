@@ -84,8 +84,8 @@ export default {
 }
 .text-2 {
   position: relative;
-  font-family: PSR;
-  font-size: 35px;
+  font-family: PSM;
+  font-size: 30px;
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;

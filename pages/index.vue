@@ -124,7 +124,7 @@ export default {
 }
 .h-2 {
   font-family: PSR;
-  font-size: 16px;
+  font-size: 18px;
   color: #666a72;
   letter-spacing: 1px;
   text-align: center;

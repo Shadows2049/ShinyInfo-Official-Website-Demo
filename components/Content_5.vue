@@ -3,10 +3,10 @@
     <el-container>
       <el-header>
         <h1 class="title">服务客户</h1>
-        <div class="description">
+        <h4 class="description">
           传统的运维模式正在被新技术所颠覆，同时又以一种全新的模式融合再创新，
           用技术的力量帮助企业实现智能运维数字化转型。
-        </div>
+        </h4>
       </el-header>
       <el-main>
         <div class="scroll">

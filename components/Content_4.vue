@@ -3,11 +3,11 @@
     <el-container>
       <el-header>
         <h1 class="title">平台优势</h1>
-        <div class="description">
+        <h4 class="description">
           圣一IT运维管理平台基于前后端分离，模块化设计技术，实现“云、网、端”异构全域混合
           资源“一站式”管理，以IT资源配置管理为平台底层核心能力，通过构建运维数据平台，萃取运维
           数据价值，实现高效统一运维。
-        </div>
+        </h4>
       </el-header>
       <el-main
         style="display: flex; align-items: center; justify-content: center"
