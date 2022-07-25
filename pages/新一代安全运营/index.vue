@@ -1,14 +1,9 @@
 <template>
-  <div class="main">
-    <navigation />
-  </div>
+  <div class="main"></div>
 </template>
 
 <script>
-import navigation from '@/components/Navigation.vue'
-export default {
-  components: { navigation }
-}
+export default {}
 </script>
 
 <style scoped></style>

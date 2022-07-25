@@ -1,7 +1,5 @@
 <template>
   <div class="main">
-    <!-- 导航栏 -->
-    <navigation />
     <!-- 走马灯 -->
     <carousel />
     <!-- 内容 -->
@@ -12,6 +10,7 @@
       </el-header>
 
       <el-footer>
+        <!-- 子内容选择器 -->
         <div class="navi">
           <el-menu
             :default-active="activeMenu"
@@ -54,24 +53,31 @@
         </div>
       </el-footer>
     </el-container>
-    <!-- 子内容选择器 -->
+
     <div v-if="flag === 1"><content1 /></div>
     <!-- 内容 -->
     <div class="content4">
       <content4 />
     </div>
     <div class="content5"><content5 /></div>
+    <div class="footerCustom"><footerCustom /></div>
   </div>
 </template>
 
 <script>
-import navigation from '@/components/Navigation.vue'
 import carousel from '@/components/Carousel.vue'
 import content1 from '@/components/Content_1.vue'
 import content4 from '@/components/Content_4.vue'
 import content5 from '@/components/Content_5.vue'
+import footerCustom from '@/components/Footer.vue'
 export default {
-  components: { navigation, carousel, content1, content4, content5 },
+  components: {
+    carousel,
+    content1,
+    content4,
+    content5,
+    footerCustom
+  },
   data() {
     return {
       activeIndex: '1',
@@ -147,7 +153,7 @@ footer.el-footer {
 }
 .content5 {
   position: relative;
-  height: 630px;
+  height: 700px;
   background-color: #ffffff;
 }
 </style>
