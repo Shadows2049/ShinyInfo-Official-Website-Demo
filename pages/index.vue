@@ -63,7 +63,6 @@
       <content4 />
     </div>
     <div class="content5"><content5 /></div>
-    <div class="footerCustom"><footerCustom /></div>
   </div>
 </template>
 
@@ -74,7 +73,6 @@ import content2 from '@/components/首页选择器/2/Content_2.vue'
 import content3 from '@/components/首页选择器/3/Content_3.vue'
 import content4 from '@/components/Content_4.vue'
 import content5 from '@/components/Content_5.vue'
-import footerCustom from '@/components/Footer.vue'
 export default {
   components: {
     carousel,
@@ -82,8 +80,7 @@ export default {
     content2,
     content3,
     content4,
-    content5,
-    footerCustom
+    content5
   },
   data() {
     return {
@@ -111,7 +108,6 @@ export default {
 }
 .main {
   padding: 0;
-  height: 180px;
 }
 .content-1 {
   background: #ffffff;
@@ -169,7 +165,7 @@ footer.el-footer {
 }
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 1s;
+  transition: opacity 0.75s;
 }
 .fade-enter,
 .fade-leave-to {

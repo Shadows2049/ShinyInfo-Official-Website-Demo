@@ -2,6 +2,9 @@
   <div class="container">
     <navigation />
     <nuxt />
+    <div class="footer">
+      <footerCustom />
+    </div>
   </div>
 </template>
 <script>
