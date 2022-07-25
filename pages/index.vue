@@ -53,10 +53,11 @@
         </div>
       </el-footer>
     </el-container>
-
-    <div v-if="flag === 1"><content1 /></div>
-    <div v-if="flag === 2"><content2 /></div>
-    <div v-if="flag === 3"><content3 /></div>
+    <transitionGroup name="fade" appear>
+      <div v-if="flag === 1" key="box1"><content1 /></div>
+      <div v-if="flag === 2" key="box2"><content2 /></div>
+      <div v-if="flag === 3" key="box3"><content3 /></div>
+    </transitionGroup>
     <!-- 内容 -->
     <div class="content4">
       <content4 />
@@ -103,6 +104,10 @@ export default {
 @font-face {
   font-family: PSM;
   src: url('@/fonts/PingFang-Medium.ttf');
+}
+@font-face {
+  font-family: PSR;
+  src: url('@/fonts/PingFangSC-Regular.ttf');
 }
 .main {
   padding: 0;
@@ -161,5 +166,13 @@ footer.el-footer {
   position: relative;
   height: 700px;
   background-color: #ffffff;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

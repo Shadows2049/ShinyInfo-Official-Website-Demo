@@ -107,11 +107,6 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family: PSR;
-  src: url('@/fonts/PingFangSC-Regular.ttf');
-}
-
 :deep(.link) {
   text-decoration: none;
   color: white;
@@ -130,10 +125,6 @@ export default {
   align-items: center;
   justify-content: center;
   height: 80px;
-}
-.sub1 {
-}
-.sub2 {
 }
 :deep(.el-submenu__icon-arrow) {
   position: relative;
