@@ -1,19 +1,18 @@
 <template>
   <div>
     <div class="content-container-1">
-      <div class="text-1">
-        <div class="text-1-1">
-          圣一信息运维管理将ITIL方法与实践管理经验融合，以CMDB为核心的一体化运维管理平台，实现统一监控、
-          自动化运维和服务流程化管理。基于大数据、算法、自动化智能场景，关联应用业务和服务管理流程，赋能企业用户智能化运维升级。
-        </div>
-      </div>
       <div class="image-1">
         <img
-          src="@/images/首页/IT运维管理插图.png"
+          src="@/images/首页/可观察性插图.png"
           alt=""
           class="image-1-1"
-          style="height: 400px"
+          style="height: 302px"
         />
+      </div>
+      <div class="text-1">
+        <div class="text-1-1">
+          {{ text1 }}
+        </div>
       </div>
     </div>
     <div class="content-container-2">
@@ -42,7 +41,10 @@
 import scrollButton from './ScrollButton.vue'
 export default {
   data() {
-    return {}
+    return {
+      text1:
+        '可观测具备统一、系统、智能、敏捷、面向业务全栈IT运维，以更高效也更成熟的方式赋能业务和管理，支撑运维数字化持续演进和发展。'
+    }
   },
   components: {
     scrollButton
@@ -80,12 +82,13 @@ export default {
 
 .image-1-1 {
   position: relative;
-  left: 100px;
+
+  right: 100px;
 }
 .text-2 {
   position: relative;
-  font-family: PSM;
-  font-size: 30px;
+  font-family: PSR;
+  font-size: 35px;
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;

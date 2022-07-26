@@ -53,7 +53,7 @@
   </div>
 </template>
 <script>
-import scrollButton2 from '@/components/ScrollButton_2.vue'
+import scrollButton2 from './ScrollButton_2.vue'
 export default {
   data() {
     return {

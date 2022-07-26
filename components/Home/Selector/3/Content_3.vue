@@ -1,18 +1,18 @@
 <template>
   <div>
     <div class="content-container-1">
-      <div class="image-1">
-        <img
-          src="@/images/首页/可观察性插图.png"
-          alt=""
-          class="image-1-1"
-          style="height: 302px"
-        />
-      </div>
       <div class="text-1">
         <div class="text-1-1">
-          可观测具备统一、系统、智能、敏捷、面向业务全栈IT运维，以更高效也更成熟的方式赋能业务和管理，支撑运维数字化持续演进和发展。
+          {{ text1 }}
         </div>
+      </div>
+      <div class="image-1">
+        <img
+          src="@/images/首页/新一代安全运营插图.png"
+          alt=""
+          class="image-1-1"
+          style="height: 300px"
+        />
       </div>
     </div>
     <div class="content-container-2">
@@ -41,7 +41,10 @@
 import scrollButton from './ScrollButton.vue'
 export default {
   data() {
-    return {}
+    return {
+      text1:
+        'SIEM安全分析平台将各类异构安全设备告警数据实时采集，集中化存储和管理，结合最佳实践完成统一建模。内置20多类300+安全场景实现安全风险快速识别，丰富的事件聚合框架实现安全事件关联分析，灵活的事件调查框架提高安全事件溯源和分析能力。'
+    }
   },
   components: {
     scrollButton
@@ -76,11 +79,9 @@ export default {
   letter-spacing: 0;
   line-height: 24px;
 }
-
 .image-1-1 {
   position: relative;
-
-  right: 100px;
+  left: 100px;
 }
 .text-2 {
   position: relative;

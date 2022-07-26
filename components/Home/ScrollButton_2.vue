@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- 容器(外层盒子) -->
     <i @click="btnCilck(307)" class="left-btn">
       <img src="@/images/首页/上一个.svg" alt=""
     /></i>
@@ -10,8 +9,6 @@
       @mouseScroll.prevent="handlescroll"
       @mousewheel.prevent="handlescroll"
     >
-      <!-- 左箭头 (<) -->
-
       <div
         ref="scrollBody"
         class="scroll-body"
@@ -46,7 +43,6 @@
           </div>
         </div>
       </div>
-      <!-- 右箭头 (>) -->
     </div>
     <i @click="btnCilck(-307)" class="right-btn"
       ><img src="@/images/首页/下一个.svg" alt=""

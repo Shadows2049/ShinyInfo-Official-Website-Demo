@@ -5,11 +5,9 @@
         <div class="content-1">
           <h2 class="title">解决方案</h2>
           <div class="content-0">
-            <nuxt-link to="/IT运维管理" class="text">IT运维管理</nuxt-link
-            ><br />
-            <nuxt-link to="/可观察性" class="text">可观察性</nuxt-link><br />
-            <nuxt-link to="/新一代安全运营" class="text"
-              >新一代安全运营平台</nuxt-link
+            <nuxt-link to="/ITOM" class="text">IT运维管理</nuxt-link><br />
+            <nuxt-link to="/Observation" class="text">可观察性</nuxt-link><br />
+            <nuxt-link to="/Platform" class="text">新一代安全运营平台</nuxt-link
             ><br />
           </div>
         </div>
@@ -17,23 +15,21 @@
           <h2 class="title">产品</h2>
           <div class="content-3">
             <div class="left">
-              <nuxt-link to="/基础监控" class="text">基础服务</nuxt-link><br />
-              <nuxt-link to="/服务智能" class="text">服务智能</nuxt-link><br />
-              <nuxt-link to="/告警平台" class="text">告警平台</nuxt-link><br />
-              <nuxt-link to="/itsm" class="text">ITSM</nuxt-link><br />
-              <nuxt-link to="/cmdb" class="text">CMDB</nuxt-link><br />
-              <nuxt-link to="/自动化运维" class="text">自动化运维</nuxt-link
-              ><br />
-              <nuxt-link to="/日志分析" class="text">日志分析</nuxt-link>
+              <nuxt-link to="/Monitor" class="text">基础监控</nuxt-link><br />
+              <nuxt-link to="/Service" class="text">服务智能</nuxt-link><br />
+              <nuxt-link to="/Alert" class="text">告警平台</nuxt-link><br />
+              <nuxt-link to="/ITSM" class="text">ITSM</nuxt-link><br />
+              <nuxt-link to="/CMDB" class="text">CMDB</nuxt-link><br />
+              <nuxt-link to="/AutoOM" class="text">自动化运维</nuxt-link><br />
+              <nuxt-link to="/Analysis" class="text">日志分析</nuxt-link>
             </div>
             <div class="right">
-              <nuxt-link to="/安全运营平台" class="text"
-                >安全运营平台(SIEM)</nuxt-link
+              <nuxt-link to="/SIEM" class="text">安全运营平台(SIEM)</nuxt-link
               ><br />
-              <nuxt-link to="/用户行为分析系统" class="text"
+              <nuxt-link to="/UEBA" class="text"
                 >用户行为分析系统(UEBA)</nuxt-link
               ><br />
-              <nuxt-link to="/安全编排和自动化响应" class="text"
+              <nuxt-link to="/SOAR" class="text"
                 >安全编排和自动化响应(SOAR)</nuxt-link
               ><br />
             </div>
@@ -42,9 +38,9 @@
         <div class="content-4">
           <h2 class="title">网站导航</h2>
           <div class="content-0">
-            <nuxt-link to="/关于我们" class="text">关于我们</nuxt-link><br />
-            <nuxt-link to="/加入我们" class="text">加入我们</nuxt-link><br />
-            <nuxt-link to="/联系我们" class="text">联系我们</nuxt-link><br />
+            <nuxt-link to="/AboutUs" class="text">关于我们</nuxt-link><br />
+            <nuxt-link to="/JoinUs" class="text">加入我们</nuxt-link><br />
+            <nuxt-link to="/ContactUs" class="text">联系我们</nuxt-link><br />
           </div>
         </div>
         <div class="content-5">
