@@ -26,7 +26,7 @@
               @click="changeFlag(1)"
             >
               <img
-                src="@/images/首页/IT运维管理.svg"
+                src="@/images/Home/IT运维管理.svg"
                 alt=""
                 style="margin-right: 12px"
               />
@@ -37,14 +37,14 @@
               style="margin-right: 250px"
               @click="changeFlag(2)"
               ><img
-                src="@/images/首页/可观察性.svg"
+                src="@/images/Home/可观察性.svg"
                 alt=""
                 style="margin-right: 12px"
               />可观察性</el-menu-item
             >
             <el-menu-item index="3" @click="changeFlag(3)"
               ><img
-                src="@/images/首页/新一代安全运营.svg"
+                src="@/images/Home/新一代安全运营.svg"
                 alt=""
                 style="margin-right: 12px"
               />新一代安全运营</el-menu-item

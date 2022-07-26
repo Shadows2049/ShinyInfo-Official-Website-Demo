@@ -14,7 +14,7 @@
       >
         <div class="content-1">
           <div class="img">
-            <img src="@/images/首页/PaaS.svg" alt="" style="width: 88px" />
+            <img src="@/images/Home/PaaS.svg" alt="" style="width: 88px" />
           </div>
           <h2 class="title-s">开发的Paas</h2>
           <div class="content">
@@ -25,7 +25,7 @@
         </div>
         <div class="content-2">
           <div class="img">
-            <img src="@/images/首页/生命周期.svg" alt="" style="width: 88px" />
+            <img src="@/images/Home/生命周期.svg" alt="" style="width: 88px" />
           </div>
           <h2 class="title-s">全生命周期服务管理</h2>
           <div class="content">
@@ -36,7 +36,7 @@
         </div>
         <div class="content-3">
           <div class="img">
-            <img src="@/images/首页/最佳实践.svg" alt="" style="width: 88px" />
+            <img src="@/images/Home/最佳实践.svg" alt="" style="width: 88px" />
           </div>
           <h2 class="title-s">最佳实践</h2>
           <div class="content">

@@ -12,7 +12,7 @@
       <div class="logo">
         <el-menu-item index="/"
           ><img
-            src="@/images/首页/logo深蓝色版.png"
+            src="@/images/Home/logo深蓝色版.png"
             alt="logo"
             style="width: 160px"
         /></el-menu-item>

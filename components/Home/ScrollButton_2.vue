@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <i @click="btnCilck(307)" class="left-btn">
-      <img src="@/images/首页/上一个.svg" alt=""
+      <img src="@/images/Home/上一个.svg" alt=""
     /></i>
     <div
       ref="scrollOuter"
@@ -45,7 +45,7 @@
       </div>
     </div>
     <i @click="btnCilck(-307)" class="right-btn"
-      ><img src="@/images/首页/下一个.svg" alt=""
+      ><img src="@/images/Home/下一个.svg" alt=""
     /></i>
   </div>
 </template>

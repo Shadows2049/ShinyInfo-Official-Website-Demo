@@ -8,7 +8,7 @@
       </div>
       <div class="image-1">
         <img
-          src="@/images/首页/新一代安全运营插图.png"
+          src="@/images/Home/新一代安全运营插图.png"
           alt=""
           class="image-1-1"
           style="height: 300px"
@@ -19,13 +19,13 @@
       <div class="title-1">
         <div class="text-2">
           <img
-            src="@/images/首页/标题装饰左.svg"
+            src="@/images/Home/标题装饰左.svg"
             alt=""
             style="height: 8px; margin-right: 12px; margin-bottom: 5px"
           />
           相关产品
           <img
-            src="@/images/首页/标题装饰右.svg"
+            src="@/images/Home/标题装饰右.svg"
             alt=""
             style="height: 8px; margin-left: 12px; margin-bottom: 5px"
           />
