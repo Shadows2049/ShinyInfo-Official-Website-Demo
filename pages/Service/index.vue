@@ -26,6 +26,6 @@ export default {
 }
 .content-1 {
   height: 250px;
-  background-color: aqua;
+  background-color: rgb(202, 202, 202);
 }
 </style>
