@@ -23,10 +23,10 @@
           <el-submenu index="1-1">
             <template slot="title" class="s">IT运维管理</template>
             <el-menu-item index="/Monitor"> 基础监控</el-menu-item>
-            <el-menu-item index="/ITSM"> ITSM</el-menu-item>
-            <el-menu-item index="/CMDB">CMDB</el-menu-item>
             <el-menu-item index="/Service">服务智能</el-menu-item>
             <el-menu-item index="/Alert">告警平台</el-menu-item>
+            <el-menu-item index="/ITSM"> ITSM</el-menu-item>
+            <el-menu-item index="/CMDB">CMDB</el-menu-item>
             <el-menu-item index="/AutoOM">自动化运维</el-menu-item>
             <el-menu-item index="/Analysis">日志分析</el-menu-item>
           </el-submenu>
