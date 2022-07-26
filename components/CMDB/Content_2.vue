@@ -9,7 +9,10 @@
       </el-header>
       <el-main class="main">
         <div class="content">
-          <img src="@/images/CMDB/u1138.png" alt="" />
+          <div>
+            <h1 class="fix">CMDB</h1>
+            <img src="@/images/CMDB/u1138.png" alt="" />
+          </div>
         </div>
       </el-main>
     </el-container>
@@ -75,6 +78,16 @@ export default {
   align-items: center;
   justify-content: center;
   width: 1200px;
-  margin-top: -50px;
+  margin-top: 50px;
+}
+.fix {
+  position: relative;
+  font-family: PSM;
+  font-size: 35px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: -125px;
+  margin-left: 6px;
 }
 </style>
