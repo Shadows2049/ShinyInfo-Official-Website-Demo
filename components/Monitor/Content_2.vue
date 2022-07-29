@@ -1,6 +1,6 @@
 <template>
   <el-container class="content-container">
-    <el-header height="230px">
+    <el-header height="228px">
       <h1 class="title">基础监控</h1>
       <div class="description">
         {{ text1 }}
@@ -10,14 +10,14 @@
       <div class="content">
         <div v-for="(item, index) in data" :key="index" :label="item">
           <el-card class="box-card">
-            <div class="clearfix">
-              <span class="title-s">
-                <img src="@/images/Monior/u485.png" alt="" />
+            <div class="pic"><img :src="item.url" alt="" /></div>
+            <div class="body-s">
+              <div class="title-s">
                 {{ item.title }}
-              </span>
-            </div>
-            <div class="content-s">
-              {{ item.content }}
+              </div>
+              <div class="content-s">
+                {{ item.content }}
+              </div>
             </div>
           </el-card>
         </div>
@@ -35,32 +35,38 @@ export default {
         {
           title: '硬件设备监控',
           content:
-            '实时监控硬件设施的风扇、电源、CPU、内存、磁盘、端口、温度等指标信息。'
+            '实时监控硬件设施的风扇、电源、CPU、内存、磁盘、端口、温度等指标信息。',
+          url: '/Monitor/1.png'
         },
         {
           title: '存储设备监控',
           content:
-            '实时监控主流存储设备的容量、磁盘、卷、Raid、事件、控制器、存储池、适配器、端口、网络状态、可用性、性能等指标信息。'
+            '实时监控主流存储设备的容量、磁盘、卷、Raid、事件、控制器、存储池、适配器、端口、网络状态、可用性、性能等指标信息。',
+          url: '/Monitor/2.png'
         },
         {
           title: '操作系统监控',
           content:
-            '实时监控开源和国产操作系统的进程、线程、性能、端口、服务、日志、文件信息等指标信息。'
+            '实时监控开源和国产操作系统的进程、线程、性能、端口、服务、日志、文件信息等指标信息。',
+          url: '/Monitor/3.png'
         },
         {
           title: '虚拟化监控',
           content:
-            '实时虚拟化的版本、虚拟机、分区、存储、网络、CPU、磁盘、物理&虚拟内存、进程等指标信息。'
+            '实时虚拟化的版本、虚拟机、分区、存储、网络、CPU、磁盘、物理&虚拟内存、进程等指标信息。',
+          url: '/Monitor/4.png'
         },
         {
           title: '数据库监控',
           content:
-            '监控开源和国产数据库的连接态、缓存池、表空间、缓冲区、运行状态等指标信息。'
+            '监控开源和国产数据库的连接态、缓存池、表空间、缓冲区、运行状态等指标信息。',
+          url: '/Monitor/5.png'
         },
         {
           title: '中间件监控',
           content:
-            '监控开源和国产中间件的连接态、线程、会话、消息队列、服务状态、MassURL、性能、缓存等指标。'
+            '监控开源和国产中间件的连接态、线程、会话、消息队列、服务状态、MassURL、性能、缓存等指标。',
+          url: '/Monitor/6.png'
         }
       ]
     }
@@ -69,12 +75,13 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 630px;
+  height: 878px;
 }
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -30px;
 }
 .title {
   font-family: PSM;
@@ -83,34 +90,34 @@ export default {
   letter-spacing: 0;
   text-align: center;
   margin-top: 60px;
+  margin-left: auto;
 }
-
 .title-s {
-  position: relative;
-  margin-top: -30px;
-  font-family: PSM;
-  font-size: 20px;
-  color: #1370ee;
+  font-family: PSR;
+  font-size: 25px;
+  color: #333333;
   letter-spacing: 0;
   text-align: center;
 }
 .content-s {
-  font-family: PSM;
-  font-size: 14px;
-  color: #000000;
+  font-family: PSR;
+  text-indent: 2em;
+  max-width: 307px;
+  font-size: 16px;
+  color: #666a72;
   letter-spacing: 0;
-  text-align: center;
+  line-height: 21px;
+  margin: 12px auto;
 }
 .description {
   position: relative;
   max-width: 1000px;
-  text-indent: 2em;
   font-family: PSR;
   font-size: 18px;
   color: #666a72;
   letter-spacing: 0;
   text-align: center;
-  margin: 12px auto;
+  margin: -10px auto;
 }
 .content {
   display: flex;
@@ -118,11 +125,21 @@ export default {
   justify-content: space-between;
   align-items: flex-start;
   width: 1200px;
-  margin-top: -50px;
 }
 .box-card {
-  width: 350px;
-  height: 150px;
+  width: 387px;
+  height: 280px;
   margin: 10px auto;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(19, 112, 238, 0.15);
+  border-radius: 12px;
+}
+.body-s {
+  position: relative;
+  margin-top: 0px;
+}
+.pic {
+  width: 56px;
+  margin: 20px auto;
 }
 </style>

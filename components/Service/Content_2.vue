@@ -1,14 +1,18 @@
 <template>
   <el-container class="content-container">
-    <el-header height="230px">
-      <h1 class="title">服务智能</h1>
+    <el-header height="200px">
+      <h1 class="title">IT服务智能</h1>
       <div class="description">
         {{ text1 }}
       </div>
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img src="@/images/Service/u667.png" alt="" />
+        <img
+          src="@/images/Service/IT服务智能.png"
+          alt=""
+          style="width: 600px"
+        />
       </div>
     </el-main>
   </el-container>
@@ -25,7 +29,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 630px;
+  height: 563px;
 }
 .main {
   display: flex;
@@ -50,7 +54,7 @@ export default {
   color: #666a72;
   letter-spacing: 0;
   text-align: center;
-  margin: 12px auto;
+  margin: -10px auto;
 }
 .content {
   display: flex;

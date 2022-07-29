@@ -4,20 +4,29 @@
       <el-main class="main">
         <div class="content-1">
           <div class="content-1-1">
-            <h1 class="title">告警智能收敛</h1>
+            <div class="line"></div>
+            <h1 class="title-s">告警智能收敛</h1>
             <div class="text">{{ text1 }}</div>
           </div>
           <div class="pic2">
-            <img src="@/images/Alert/u831.png" alt="" style="height: 250px" />
+            <img
+              src="@/images/Alert/告警智能收敛.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
         <div class="content-1">
           <div class="pic3">
-            <img src="@/images/Alert/u833.png" alt="" style="height: 200px" />
-            <img src="@/images/Alert/u835.png" alt="" style="height: 200px" />
+            <img
+              src="@/images/Alert/多元数据采集.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
           <div class="content-1-2">
-            <h1 class="title">多元数据采集</h1>
+            <div class="line"></div>
+            <h1 class="title-s">多元数据采集</h1>
             <div class="text">{{ text2 }}</div>
           </div>
         </div>
@@ -39,7 +48,8 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  background-color: rgb(240, 216, 184);
+  height: 1100px;
+  background: #f3f8fe;
 }
 .title {
   font-family: PSM;
@@ -49,32 +59,43 @@ export default {
   text-align: center;
   margin-top: 60px;
 }
-.main {
-  margin-top: -50px;
-}
 
 .content-1 {
   position: relative;
-  margin-top: 100px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .text {
   position: relative;
-  max-width: 520px;
-  text-indent: 2em;
+  max-width: 400px;
   font-family: PSR;
-  font-size: 18px;
-  color: #333333;
+  font-size: 16px;
+  color: #666a72;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 21px;
 }
 .pic2,
 .pic4 {
   margin-left: 100px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
 }
 .pic3 {
   margin-right: 100px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
+}
+.title-s {
+  font-family: PSR;
+  font-size: 25px;
+  color: #333333;
+  letter-spacing: 0;
+}
+.line {
+  transform: scaleY(-1);
+  background: #1370ee;
+  border-radius: 4px;
+  width: 60px;
+  height: 4px;
 }
 </style>

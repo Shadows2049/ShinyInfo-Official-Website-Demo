@@ -1,6 +1,6 @@
 <template>
   <el-container class="content-container">
-    <el-header height="230px">
+    <el-header height="200px">
       <h1 class="title">告警平台</h1>
       <div class="description">
         {{ text1 }}
@@ -8,7 +8,7 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img src="@/images/Alert/u829.png" alt="" />
+        <img src="@/images/Alert/告警平台.png" alt="" style="width: 600px" />
       </div>
     </el-main>
   </el-container>
@@ -25,7 +25,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 630px;
+  height: 587px;
 }
 .main {
   display: flex;
@@ -50,7 +50,7 @@ export default {
   color: #666a72;
   letter-spacing: 0;
   text-align: center;
-  margin: 12px auto;
+  margin: -10px auto;
 }
 .content {
   display: flex;

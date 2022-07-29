@@ -4,35 +4,50 @@
       <el-main class="main">
         <div class="content-1">
           <div class="content-1-1">
-            <h1 class="title">KPI和服务水平监控</h1>
+            <div class="line"></div>
+            <h1 class="title-s">KPI和服务水平监控</h1>
             <div class="text">{{ text1 }}</div>
           </div>
           <div class="pic2">
-            <img src="@/images/Service/u661.png" alt="" style="height: 250px" />
+            <img
+              src="@/images/Service/KPI_服务水平监控.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
         <div class="content-1">
           <div class="pic3">
-            <img src="@/images/Service/u641.png" alt="" style="height: 250px" />
+            <img
+              src="@/images/Service/IT服务视图.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
           <div class="content-1-2">
             <div class="content-1-2-1">
-              <h1 class="title">IT服务视图</h1>
+              <div class="line"></div>
+              <h1 class="title-s">IT服务视图</h1>
               <div class="text">{{ text2_1 }}</div>
             </div>
             <div class="content-1-2-2">
-              <h1 class="title">对问题进行根因分析</h1>
+              <h1 class="title-s">对问题进行根因分析</h1>
               <div class="text">{{ text2_2 }}</div>
             </div>
           </div>
         </div>
         <div class="content-1">
           <div class="content-1-1">
-            <h1 class="title">机器学习和预测分析</h1>
+            <div class="line"></div>
+            <h1 class="title-s">机器学习和预测分析</h1>
             <div class="text">{{ text3 }}</div>
           </div>
           <div class="pic4">
-            <img src="@/images/Service/u669.png" alt="" style="height: 250px" />
+            <img
+              src="@/images/Service/机器学习和预测分析.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
       </el-main>
@@ -57,7 +72,8 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  background-color: rgb(240, 216, 184);
+  height: 1624px;
+  background-image: linear-gradient(180deg, #f3f8fe 0%, #ffffff 100%);
 }
 .title {
   font-family: PSM;
@@ -80,31 +96,40 @@ export default {
 }
 .text {
   position: relative;
-  max-width: 520px;
-  text-indent: 2em;
+  max-width: 400px;
   font-family: PSR;
-  font-size: 18px;
-  color: #333333;
+  font-size: 16px;
+  color: #666a72;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 21px;
 }
 .pic2,
 .pic4 {
   margin-left: 100px;
   margin-top: 50px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
 }
 .pic3 {
   margin-right: 100px;
   margin-top: 50px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
 }
-.content-1-2 {
-  background-color: rgb(235, 235, 235);
-  padding: 25px;
-}
+
 .content-1-2-1 {
-  margin-top: -50px;
+  margin-top: 50px;
 }
-.content-1-2-2 {
-  margin-top: -30px;
+
+.title-s {
+  font-family: PSR;
+  font-size: 25px;
+  color: #333333;
+  letter-spacing: 0;
+}
+.line {
+  transform: scaleY(-1);
+  background: #1370ee;
+  border-radius: 4px;
+  width: 60px;
+  height: 4px;
 }
 </style>

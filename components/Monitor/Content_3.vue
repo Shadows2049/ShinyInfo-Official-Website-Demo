@@ -1,38 +1,59 @@
 <template>
   <div class="content-container">
     <el-container>
-      <el-header height="200px">
-        <h1 class="title">监控数据配置流程</h1>
+      <el-header height="600px" style="background: #f3f8fe">
+        <div class="content-0">
+          <h1 class="title">监控数据配置流程</h1>
+          <div class="pic1">
+            <img
+              src="@/images/Monior/监控数据配置流程.png"
+              alt=""
+              style="height: 390px"
+            />
+          </div>
+        </div>
       </el-header>
       <el-main class="main">
-        <div class="pic1">
-          <img src="@/images/Monior/u509.png" alt="" style="height: 400px" />
-        </div>
         <div class="content-1">
           <div class="content-1-1">
-            <h1 class="title">环境监控</h1>
+            <div class="line"></div>
+            <h1 class="title-s">环境监控</h1>
             <div class="text">{{ text1 }}</div>
           </div>
           <div class="pic2">
-            <img src="@/images/Monior/u511.png" alt="" style="height: 400px" />
+            <img
+              src="@/images/Monior/环境监控.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
         <div class="content-1">
           <div class="pic3">
-            <img src="@/images/Monior/u539.png" alt="" style="height: 400px" />
+            <img
+              src="@/images/Monior/全局视图网络拓扑.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
           <div class="content-1-2">
-            <h1 class="title">全局视图网络拓扑</h1>
+            <div class="line"></div>
+            <h1 class="title-s">全局视图网络拓扑</h1>
             <div class="text">{{ text2 }}</div>
           </div>
         </div>
         <div class="content-1">
           <div class="content-1-1">
-            <h1 class="title">环境监控</h1>
+            <div class="line"></div>
+            <h1 class="title-s">监控指标库管理</h1>
             <div class="text">{{ text3 }}</div>
           </div>
           <div class="pic4">
-            <img src="@/images/Monior/u525.jpg" alt="" style="height: 400px" />
+            <img
+              src="@/images/Monior/环境监控.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
       </el-main>
@@ -55,7 +76,8 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  background-color: rgb(240, 216, 184);
+  background-color: rgb(255, 255, 255);
+  height: 2181px;
 }
 .title {
   font-family: PSM;
@@ -63,39 +85,52 @@ export default {
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
 }
-.main {
-  margin-top: -50px;
+.title-s {
+  font-family: PSR;
+  font-size: 25px;
+  color: #333333;
+  letter-spacing: 0;
 }
+
 .pic1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px auto;
+  margin: 50px auto;
 }
+
 .content-1 {
   position: relative;
-  margin-top: 50px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .text {
   position: relative;
-  max-width: 520px;
-  text-indent: 2em;
+  max-width: 400px;
   font-family: PSR;
-  font-size: 18px;
-  color: #333333;
+  font-size: 16px;
+  color: #666a72;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 21px;
 }
 .pic2,
 .pic4 {
   margin-left: 100px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.1);
 }
 .pic3 {
   margin-right: 100px;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.1);
+}
+.line {
+  transform: scaleY(-1);
+  background: #1370ee;
+  border-radius: 4px;
+  width: 60px;
+  height: 4px;
 }
 </style>
