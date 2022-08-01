@@ -48,7 +48,6 @@ export default {
 .description {
   position: relative;
   max-width: 1000px;
-  text-indent: 2em;
   font-family: PSR;
   font-size: 18px;
   color: #666a72;
