@@ -12,6 +12,20 @@ import content2 from '@/components/Monitor/Content_2.vue'
 import content3 from '@/components/Monitor/Content_3.vue'
 import content4 from '@/components/Monitor/Content_4.vue'
 export default {
+  data() {
+    return { title: '基础监控' }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          name: 'keywords',
+          content: ''
+        }
+      ]
+    }
+  },
   components: { content2, content3, content4 }
 }
 </script>

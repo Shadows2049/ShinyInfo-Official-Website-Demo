@@ -85,7 +85,19 @@ export default {
   data() {
     return {
       activeMenu: '1',
-      flag: 1
+      flag: 1,
+      title: '圣一信息 首页'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          name: 'keywords',
+          content: ''
+        }
+      ]
     }
   },
   methods: {

@@ -12,6 +12,20 @@ import content2 from '@/components/Analysis/Content_2.vue'
 import content3 from '@/components/Analysis/Content_3.vue'
 import content4 from '@/components/Analysis/Content_4.vue'
 export default {
+  data() {
+    return { title: '日志分析' }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          name: 'keywords',
+          content: ''
+        }
+      ]
+    }
+  },
   components: { content2, content3, content4 }
 }
 </script>

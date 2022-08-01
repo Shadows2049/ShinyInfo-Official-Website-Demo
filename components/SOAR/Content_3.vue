@@ -5,12 +5,9 @@
         <div class="content-1">
           <div class="content-1-1">
             <div class="line"></div>
-            <h1 class="title-s">高效的日志检索服务</h1>
+            <h1 class="title-s">事件自动化响应</h1>
             <div class="text">
-              • 任意格式任意类型数据 <br />
-              • 全量全文检索 <br />
-              • 自动化字段识别 <br />
-              • 一键追溯上下文
+              安全事件自动化分类并触发安全剧本完成自动化响应。
             </div>
           </div>
           <div class="pic2">
@@ -31,27 +28,18 @@
           </div>
           <div class="content-1-2">
             <div class="line"></div>
-            <h1 class="title-s">强大的数据分析能力</h1>
+            <h1 class="title-s">高自由度流程编排框架</h1>
             <div class="text">
-              SQL分析引擎<br />
-              • 标准SQL语法，无需学习专用的查询语言，学习门槛低 <br />
-              •
-              无需语言转换，从查询语法层面帮助无缝集成已有的SQL系统，减少二次开发的成本<br />
-              • 内置各类函数，实现多维度逻辑计算<br />
-              • 开放式框架支持自定义分析语言
+              可视化无代码 <br />
+              “拖拉拽”式剧本编排
             </div>
           </div>
         </div>
         <div class="content-1">
           <div class="content-1-1">
             <div class="line"></div>
-            <h1 class="title-s">灵活的数据可视化</h1>
-            <div class="text">
-              交互式仪表板创建和编辑 <br />
-              • 随心拖拽调整组件大小和位置 <br />
-              • 自动吸附边缘进行对齐 <br />带参数的仪表板 <br />
-              • 自定义仪表板参数选择 <br />支持导出多种格式PDF、PNG、CSV
-            </div>
+            <h1 class="title-s">AI协调处置</h1>
+            <div class="text">安全事件协同处置，AI 机器人 7*24 小时值守。</div>
           </div>
           <div class="pic4">
             <img
@@ -71,13 +59,9 @@
           </div>
           <div class="content-1-2">
             <div class="line"></div>
-            <h1 class="title-s">完善的权限管理</h1>
+            <h1 class="title-s">丰富的第三方拓展</h1>
             <div class="text">
-              节点到节点加密 验证方式支持：Active Directory, LDAP, Kerberos,
-              SAML...<br />
-              基于角色的访问控制<br />
-              索引、文档和字段级访问限制 <br />
-              平台审计日志
+              通过插件管理不同的类型的安全和运维工具将API或脚本变为可配置的执行动作。
             </div>
           </div>
         </div>
