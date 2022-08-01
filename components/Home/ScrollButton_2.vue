@@ -15,7 +15,7 @@
         :style="{ left: tagBodyLeft + 'px' }"
       >
         <div v-for="(item, index) in content" :key="index" :label="item">
-          <div v-if="index % 2 == 0">
+          <div v-if="index % 2 == 0" class="test">
             <el-card
               class="box-card"
               :style="{
@@ -169,42 +169,49 @@ export default {
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     insuranceUpdate() {
       this.content = this.insurance.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     investmentUpdate() {
       this.content = this.investment.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     techUpdate() {
       this.content = this.technology.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     logisticsUpdate() {
       this.content = this.logistics.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     internetUpdate() {
       this.content = this.internet.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     },
     othersUpdate() {
       this.content = this.others.map((item) => ({
         title: item.title,
         url: item.url
       }))
+      this.tagBodyLeft = 0
     }
   }
 }

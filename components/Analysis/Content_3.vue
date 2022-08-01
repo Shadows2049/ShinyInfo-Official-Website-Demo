@@ -5,46 +5,80 @@
         <div class="content-1">
           <div class="content-1-1">
             <div class="line"></div>
-            <h1 class="title-s">丰富的预设脚本库</h1>
-            <div class="text">{{ text1 }}</div>
+            <h1 class="title-s">高效的日志检索服务</h1>
+            <div class="text">
+              • 任意格式任意类型数据 <br />
+              • 全量全文检索 <br />
+              • 自动化字段识别 <br />
+              • 一键追溯上下文
+            </div>
           </div>
           <div class="pic2">
             <img
-              src="@/images/AutoOM/丰富的预设脚本库.png"
+              src="@/images/Analysis/高效的日志检索服务.png"
               alt=""
-              style="height: 360px"
+              style="width: 640px"
             />
           </div>
         </div>
         <div class="content-1">
           <div class="pic3">
             <img
-              src="@/images/AutoOM/丰富内置场景.png"
+              src="@/images/Analysis/强大的数据分析能力.png"
               alt=""
-              style="height: 360px"
+              style="width: 640px"
             />
           </div>
           <div class="content-1-2">
             <div class="line"></div>
-            <h1 class="title-s">丰富内置场景</h1>
-            <div class="text">{{ text2 }}</div>
+            <h1 class="title-s">强大的数据分析能力</h1>
+            <div class="text">
+              SQL分析引擎<br />
+              • 标准SQL语法，无需学习专用的查询语言，学习门槛低 <br />
+              •
+              无需语言转换，从查询语法层面帮助无缝集成已有的SQL系统，减少二次开发的成本<br />
+              • 内置各类函数，实现多维度逻辑计算<br />
+              • 开放式框架支持自定义分析语言
+            </div>
           </div>
         </div>
         <div class="content-1">
           <div class="content-1-1">
             <div class="line"></div>
-            <h1 class="title-s">应用发布管理</h1>
+            <h1 class="title-s">灵活的数据可视化</h1>
             <div class="text">
-              {{ text3 }}<br />
-              <br />应用发布管理 > 流程配置 > 节点可视化
+              交互式仪表板创建和编辑 <br />
+              • 随心拖拽调整组件大小和位置 <br />
+              • 自动吸附边缘进行对齐 <br />带参数的仪表板 <br />
+              • 自定义仪表板参数选择 <br />支持导出多种格式PDF、PNG、CSV
             </div>
           </div>
           <div class="pic4">
             <img
-              src="@/images/AutoOM/应用发布管理.png"
+              src="@/images/Analysis/灵活的数据可视化.png"
               alt=""
-              style="height: 360px"
+              style="width: 640px"
             />
+          </div>
+        </div>
+        <div class="content-1">
+          <div class="pic3">
+            <img
+              src="@/images/Analysis/完善的权限管理.png"
+              alt=""
+              style="width: 640px"
+            />
+          </div>
+          <div class="content-1-2">
+            <div class="line"></div>
+            <h1 class="title-s">完善的权限管理</h1>
+            <div class="text">
+              节点到节点加密 验证方式支持：Active Directory, LDAP, Kerberos,
+              SAML...<br />
+              基于角色的访问控制<br />
+              索引、文档和字段级访问限制 <br />
+              平台审计日志
+            </div>
           </div>
         </div>
       </el-main>
@@ -54,21 +88,13 @@
 <script>
 export default {
   data() {
-    return {
-      text1:
-        '脚本库足以满足日常运维的需求，支持编写适合自己业务场景的新脚本，支持传统方式、docker部署。',
-      text2:
-        '多年实践积累，提供大量丰富的场景，实现运维作业的自定义编排和调度，实现运维任务的一键执行，百倍提升效率。',
-      text3:
-        '对应用集中统一管理新建、流程配置，应用发布等，构建基本信息、查看构建信息、新建流程编排和定时任务，应用流程是标准运维的核心功能。'
-    }
+    return {}
   }
 }
 </script>
 <style scoped>
 .content-container {
   background-image: linear-gradient(180deg, #f3f8fe 0%, #ffffff 100%);
-  height: 1600px;
 }
 .title {
   font-family: PSM;

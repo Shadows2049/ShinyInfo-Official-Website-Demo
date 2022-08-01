@@ -22,31 +22,31 @@
           >
             <el-menu-item
               index="1"
-              style="margin-right: 250px"
+              style="margin-right: 250px; height: 68px"
               @click="changeFlag(1)"
             >
               <img
                 src="@/images/Home/IT运维管理.svg"
                 alt=""
-                style="margin-right: 12px"
+                style="margin-right: 12px; margin-bottom: 8px"
               />
               IT运维管理</el-menu-item
             >
             <el-menu-item
               index="2"
-              style="margin-right: 250px"
+              style="margin-right: 250px; height: 68px"
               @click="changeFlag(2)"
               ><img
                 src="@/images/Home/可观察性.svg"
                 alt=""
-                style="margin-right: 12px"
+                style="margin-right: 12px; margin-bottom: 8px"
               />可观察性</el-menu-item
             >
-            <el-menu-item index="3" @click="changeFlag(3)"
+            <el-menu-item index="3" @click="changeFlag(3)" style="height: 68px"
               ><img
                 src="@/images/Home/新一代安全运营.svg"
                 alt=""
-                style="margin-right: 12px"
+                style="margin-right: 12px; margin-bottom: 8px"
               />新一代安全运营</el-menu-item
             >
           </el-menu>
@@ -145,7 +145,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -21px;
+  margin-top: -34px;
 }
 
 footer.el-footer {

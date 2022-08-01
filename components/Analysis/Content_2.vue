@@ -1,7 +1,7 @@
 <template>
   <el-container class="content-container">
     <el-header height="200px">
-      <h1 class="title">圣一自动化运维</h1>
+      <h1 class="title">日志分析平台</h1>
       <div class="description">
         {{ text1 }}
       </div>
@@ -9,14 +9,9 @@
     <el-main class="main">
       <div class="content">
         <img
-          src="@/images/AutoOM/圣一自动化运维1.png"
+          src="@/images/Analysis/日志分析平台.png"
           alt=""
-          style="width: 364px"
-        />
-        <img
-          src="@/images/AutoOM/圣一自动化运维2.png"
-          alt=""
-          style="width: 640px; margin-left: 98px"
+          style="width: 800px"
         />
       </div>
     </el-main>
@@ -27,7 +22,7 @@ export default {
   data() {
     return {
       text1:
-        '自动化运维通过运维工具或平台，实现IT日常任务处理和运维流程的自动化，提供平台及场景能力，依托于原子化作业APP平台和服务编排能力，满足企业自动化运维需求。'
+        '日志分析平台提供数据采集、导入、存储、分析、可视化和告警等一系列功能服务，让用户从海量数据中快速定位问题。帮助客户更好的达成新信息化时代的企业数字化转型，提高企业数据价值。'
     }
   }
 }
