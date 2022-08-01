@@ -28,34 +28,24 @@ export default {
     return {
       data: [
         {
-          content: '强大的数据采集能力CMDB联动消费',
+          content: '全面日志采集',
           url: '/General/1.svg',
-          text: ''
+          text: '应用系统业务日志；数据库记录；系统运维日志；审计日志；用户行为数据；性能监控和追踪日志...'
         },
         {
-          content: '跨平台流程整合',
+          content: '通用查询语言',
           url: '/General/2.svg',
-          text: ''
+          text: 'SQL查询语言；用户友好简单易学；开放架构可自定义'
         },
         {
           content: '流程执行过程和结果可视化',
           url: '/General/3.svg',
-          text: ''
+          text: '智能运维；安全合规；业务分析；物联网...'
         },
         {
-          content: '提供二次开发接口，可定制化编排',
+          content: '满足国产化需求',
           url: '/General/4.svg',
-          text: ''
-        },
-        {
-          content: '批量分发，自由选择目标路径',
-          url: '/General/5.svg',
-          text: ''
-        },
-        {
-          content: '图形和列表展示灵活切换',
-          url: '/General/6.svg',
-          text: ''
+          text: '完全国产化；支持各类信创系统；自主知识产权'
         }
       ]
     }
@@ -121,5 +111,7 @@ export default {
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;
+  max-width: 382px;
+  margin-top: 12px;
 }
 </style>

@@ -121,5 +121,6 @@ export default {
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;
+  margin-top: 12px;
 }
 </style>

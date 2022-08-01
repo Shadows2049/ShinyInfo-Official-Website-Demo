@@ -107,5 +107,6 @@ export default {
   letter-spacing: 0;
   line-height: 21px;
   max-width: 591px;
+  margin-top: 12px;
 }
 </style>
