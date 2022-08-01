@@ -25,7 +25,7 @@ export default {
   src: url('@/fonts/PingFangSC-Regular.ttf');
 }
 .content-1 {
-  height: 250px;
-  background-color: rgb(202, 202, 202);
+  height: 500px;
+  background: #d0e2fc;
 }
 </style>
