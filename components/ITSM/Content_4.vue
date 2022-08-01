@@ -7,14 +7,14 @@
       <div class="content">
         <div v-for="(item, index) in data" :key="index" :label="item">
           <div class="box-s">
-            <div class="pic">
-              <img src="@/images/Monior/u545.png" alt="" />
-            </div>
             <div class="text-s">
-              {{ item.content }}
-            </div>
-            <div class="text-ss">
-              {{ item.sub }}
+              <div class="pic-s">
+                <img :src="item.url" alt="" />
+              </div>
+              <div class="content-s">
+                {{ item.content }}<br />
+                <div class="sub">{{ item.text }}</div>
+              </div>
             </div>
           </div>
         </div>
@@ -29,27 +29,33 @@ export default {
       data: [
         {
           content: '符合国际标准理念',
-          sub: '遵循ITIL 4实践和ITSS、ISO20000等实践标准落地。'
+          url: '/General/1.svg',
+          text: '遵循ITIL 4实践和ITSS、ISO20000等实践标准落地。'
         },
         {
           content: '工单自动化',
-          sub: ''
+          url: '/General/2.svg',
+          text: ''
         },
         {
           content: '内置典型的ITIL流程模型',
-          sub: ''
+          url: '/General/3.svg',
+          text: ''
         },
         {
           content: '低代码引擎',
-          sub: ''
+          url: '/General/4.svg',
+          text: ''
         },
         {
           content: '动态流程引擎',
-          sub: ''
+          url: '/General/5.svg',
+          text: ''
         },
         {
           content: 'ESM企业服务管理',
-          sub: '可扩展到企业服务流程，为企业提供统一的流程平台。'
+          url: '/General/6.svg',
+          text: '可扩展到企业服务流程，为企业提供统一的流程平台。'
         }
       ]
     }
@@ -58,7 +64,9 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 800px;
+  height: 790px;
+  background-image: url('/General/bg.png');
+  background-size: 1920px 790px;
 }
 .main {
   display: flex;
@@ -83,32 +91,35 @@ export default {
   margin-top: -50px;
 }
 .box-s {
-  width: 350px;
-  height: 200px;
+  width: 590px;
+  height: 180px;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(19, 112, 238, 0.15);
+  border-radius: 12px;
   margin: 10px auto;
-  border-style: solid;
-  border-color: rgb(87, 87, 87);
-}
-.pic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .text-s {
-  font-family: PSM;
-  font-size: 20px;
-  color: #000000;
+  position: relative;
+  font-family: PSR;
+  font-size: 25px;
+  color: #333333;
   letter-spacing: 0;
-  text-align: center;
-  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  top: 50px;
 }
-.text-ss {
-  font-family: PSM;
-  font-size: 13px;
-  color: #000000;
+.content-s {
+  margin-left: 40px;
+}
+.pic-s {
+  margin-left: 40px;
+}
+.sub {
+  font-family: PSR;
+  font-size: 16px;
+  color: #666a72;
   letter-spacing: 0;
-  text-align: center;
-  margin-top: 5px;
+  line-height: 21px;
 }
 </style>
