@@ -8,7 +8,11 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img src="@/images/Alert/告警平台.png" alt="" style="width: 600px" />
+        <img
+          src="@/images/UEBA/用户行为分析系统(UEBA).png"
+          alt=""
+          style="width: 800px"
+        />
       </div>
     </el-main>
   </el-container>
@@ -25,7 +29,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 587px;
+  height: 677px;
 }
 .main {
   display: flex;

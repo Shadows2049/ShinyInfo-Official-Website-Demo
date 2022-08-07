@@ -12,7 +12,7 @@
           </div>
           <div class="pic2">
             <img
-              src="@/images/Analysis/高效的日志检索服务.png"
+              src="@/images/SOAR/事件自动化响应.png"
               alt=""
               style="width: 640px"
             />
@@ -21,7 +21,7 @@
         <div class="content-1">
           <div class="pic3">
             <img
-              src="@/images/Analysis/强大的数据分析能力.png"
+              src="@/images/SOAR/高自由度流程编排框架.png"
               alt=""
               style="width: 640px"
             />
@@ -43,7 +43,7 @@
           </div>
           <div class="pic4">
             <img
-              src="@/images/Analysis/灵活的数据可视化.png"
+              src="@/images/SOAR/AI协调处置.png"
               alt=""
               style="width: 640px"
             />
@@ -52,7 +52,7 @@
         <div class="content-1">
           <div class="pic3">
             <img
-              src="@/images/Analysis/完善的权限管理.png"
+              src="@/images/SOAR/丰富的第三方拓展.png"
               alt=""
               style="width: 640px"
             />
@@ -78,8 +78,8 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  background-image: linear-gradient(180deg, #f3f8fe 0%, #ffffff 100%);
-  height: 2000px;
+  background: #f3f8fe;
+  height: 2050px;
 }
 .title {
   font-family: PSM;
@@ -102,7 +102,7 @@ export default {
 }
 .text {
   position: relative;
-  max-width: 400px;
+  width: 400px;
   font-family: PSR;
   font-size: 16px;
   color: #666a72;

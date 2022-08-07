@@ -10,7 +10,7 @@
           </div>
           <div class="pic2">
             <img
-              src="@/images/Alert/告警智能收敛.png"
+              src="@/images/UEBA/丰富的场景框架.png"
               alt=""
               style="height: 360px"
             />
@@ -19,7 +19,7 @@
         <div class="content-1">
           <div class="pic3">
             <img
-              src="@/images/Alert/多元数据采集.png"
+              src="@/images/UEBA/用户风险量化.png"
               alt=""
               style="height: 360px"
             />
@@ -28,6 +28,20 @@
             <div class="line"></div>
             <h1 class="title-s">用户风险量化</h1>
             <div class="text">{{ text2 }}</div>
+          </div>
+        </div>
+        <div class="content-1">
+          <div class="content-1-3">
+            <div class="line"></div>
+            <h1 class="title-s">异常行为识别</h1>
+            <div class="text">{{ text3 }}</div>
+          </div>
+          <div class="pic2">
+            <img
+              src="@/images/UEBA/异常行为识别.png"
+              alt=""
+              style="height: 360px"
+            />
           </div>
         </div>
       </el-main>
@@ -41,14 +55,15 @@ export default {
       text1:
         '内置多种安全指标，结合人员因子和场景因子聚合分析，从行为合规，数据泄露，内部审计多维度对用户行为进行评价。',
       text2:
-        '通过用户风险量化，可减少无效告警，发现单一的行为异常不足发现的潜在威胁，促使安全团队聚焦在真实风险和确切威胁，提升威胁检测的效率。'
+        '通过用户风险量化，可减少无效告警，发现单一的行为异常不足发现的潜在威胁，促使安全团队聚焦在真实风险和确切威胁，提升威胁检测的效率。',
+      text3: ''
     }
   }
 }
 </script>
 <style scoped>
 .content-container {
-  height: 1100px;
+  height: 1600px;
   background: #f3f8fe;
 }
 .title {
@@ -69,7 +84,7 @@ export default {
 }
 .text {
   position: relative;
-  max-width: 400px;
+  width: 400px;
   font-family: PSR;
   font-size: 16px;
   color: #666a72;

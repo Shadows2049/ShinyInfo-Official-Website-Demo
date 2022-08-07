@@ -9,9 +9,9 @@
     <el-main class="main">
       <div class="content">
         <img
-          src="@/images/Analysis/日志分析平台.png"
+          src="@/images/SOAR/安全编排和自动化响应(SOAR).png"
           alt=""
-          style="width: 800px"
+          style="width: 1200px"
         />
       </div>
     </el-main>
@@ -29,7 +29,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 746px;
+  height: 708px;
 }
 .main {
   display: flex;

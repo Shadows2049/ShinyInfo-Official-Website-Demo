@@ -54,7 +54,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 790px;
+  height: 590px;
   background-image: url('/General/bg.png');
   background-size: 1920px 790px;
 }
