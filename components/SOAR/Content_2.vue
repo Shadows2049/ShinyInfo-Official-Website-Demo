@@ -9,7 +9,7 @@
     <el-main class="main">
       <div class="content">
         <img
-          src="@/images/SOAR/安全编排和自动化响应(SOAR).png"
+          src="/SOAR/安全编排和自动化响应(SOAR).png"
           alt=""
           style="width: 1200px"
         />

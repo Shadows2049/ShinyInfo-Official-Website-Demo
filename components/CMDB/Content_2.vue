@@ -10,11 +10,7 @@
       <el-main class="main">
         <div class="content">
           <div>
-            <img
-              src="@/images/CMDB/配置管理(CMDB).png"
-              alt=""
-              style="width: 600px"
-            />
+            <img src="/CMDB/配置管理(CMDB).png" alt="" style="width: 600px" />
           </div>
         </div>
       </el-main>

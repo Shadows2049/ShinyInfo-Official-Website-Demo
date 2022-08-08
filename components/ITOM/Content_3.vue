@@ -30,102 +30,17 @@
             </div>
           </div>
         </div>
-        <div class="content-1">
-          <div class="content-1-1">
-            <div class="line"></div>
-            <h1 class="title-s">统一资源监控</h1>
-            <div class="text">{{ text2 }}</div>
-          </div>
-          <div class="pic4">
-            <img
-              src="@/images/ITSM/流程模型配置.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-        </div>
-        <div class="content-1">
-          <div class="pic3">
-            <img
-              src="@/images/ITSM/工单与CMDB对接.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-          <div class="content-1-2">
-            <div class="content-1-2-1">
-              <div class="line"></div>
-              <h1 class="title-s">可视化与决策分析</h1>
-              <div class="text">{{ text3 }}</div>
-            </div>
-          </div>
-        </div>
-        <div class="content-1">
-          <div class="content-1-1">
-            <div class="line"></div>
-            <h1 class="title-s">精准故障定位</h1>
-            <div class="text">{{ text4 }}</div>
-          </div>
-          <div class="pic2">
-            <img
-              src="@/images/ITSM/变更与发布管理.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-        </div>
-
-        <div class="content-1">
-          <div class="pic3">
-            <img
-              src="@/images/ITSM/工单与CMDB对接.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-          <div class="content-1-2">
-            <div class="content-1-2-1">
-              <div class="line"></div>
-              <h1 class="title-s">面向场景的自动化运维</h1>
-              <div class="text">{{ text5 }}</div>
-            </div>
-          </div>
-        </div>
-        <div class="content-1">
-          <div class="content-1-1">
-            <div class="line"></div>
-            <h1 class="title-s">最佳ITSM工作流程</h1>
-            <div class="text">
-              1.工作流自动化：IT 服务流程可灵活定义，自动分派工单指派到人<br />
-              2.SLA 确保满意度：灵活制定多级 SLA，配合到期提醒，确保服务质量<br />
-              3.智能机器人查询及处理<br />
-              4.与自动化深度结合，支持线上审批
-            </div>
-          </div>
-          <div class="pic4">
-            <img
-              src="@/images/ITSM/流程模型配置.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-        </div>
+        <bodyContent :content="content" />
       </el-main>
     </el-container>
   </div>
 </template>
 <script>
+import bodyContent from '@/components/ContentB.vue'
 export default {
+  components: { bodyContent },
   data() {
     return {
-      text2:
-        '基于资源模型，统一规划监控方案，方案完全覆盖所有资源节点及完整的应用链路。',
-      text3: '异常事件统计分析数据可视化，直接明了关注信息集中展示运维更直观。',
-      text4:
-        '网络全链路跟踪，故障探查无死角告警智能收敛，避免重复告警，精准定位故障资源节点。',
-      text5:
-        '丰富的运维脚本库和灵活的编排能力，将日常的、复杂的运维操作标准化、流程化、自动化，从而减少了重复劳动力，降低人工操作风险，提升了企业智能运维效率。',
-      text6: '',
       data: [
         {
           title: '动态拓扑',
@@ -139,6 +54,38 @@ export default {
           title: '关联分析',
           content: '信息查询、问题定位更加清晰'
         }
+      ],
+      content: [
+        {
+          title: '统一资源监控',
+          content:
+            '基于资源模型，统一规划监控方案，方案完全覆盖所有资源节点及完整的应用链路。',
+          url: '/ITOM/u2064.png'
+        },
+        {
+          title: '可视化与决策分析',
+          content:
+            '异常事件统计分析数据可视化，直接明了关注信息集中展示运维更直观。',
+          url: '/ITOM/u2066.png'
+        },
+        {
+          title: '精准故障定位',
+          content:
+            '网络全链路跟踪，故障探查无死角告警智能收敛，避免重复告警，精准定位故障资源节点。',
+          url: '/ITOM/u2064.png'
+        },
+        {
+          title: '面向场景的自动化运维',
+          content:
+            '丰富的运维脚本库和灵活的编排能力，将日常的、复杂的运维操作标准化、流程化、自动化，从而减少了重复劳动力，降低人工操作风险，提升了企业智能运维效率。',
+          url: '/ITOM/u2068.png'
+        },
+        {
+          title: '最佳ITSM工作流程',
+          content:
+            '1.工作流自动化：IT 服务流程可灵活定义，自动分派工单指派到人\n2.SLA 确保满意度：灵活制定多级 SLA，配合到期提醒，确保服务质量\n3.智能机器人查询及处理\n4.与自动化深度结合，支持线上审批',
+          url: '/ITOM/u2070.png'
+        }
       ]
     }
   }
@@ -147,7 +94,7 @@ export default {
 <style scoped>
 .content-container {
   background-image: linear-gradient(180deg, #f3f8fe 0%, #ffffff 100%);
-  height: 3400px;
+  height: 3200px;
 }
 .title {
   font-family: PSM;

@@ -10,7 +10,7 @@
         </div>
         <div class="content">
           <img
-            src="@/images/ITSM/圣一IT服务管理(ITSM).png"
+            src="/ITSM/圣一IT服务管理(ITSM).png"
             alt=""
             style="width: 600px"
           />
@@ -24,7 +24,7 @@
       <el-main class="main">
         <div class="content">
           <img
-            src="@/images/ITSM/圣一IT服务管理(ITSM).png"
+            src="/ITSM/圣一IT服务管理(ITSM).png"
             alt=""
             style="width: 600px"
           />

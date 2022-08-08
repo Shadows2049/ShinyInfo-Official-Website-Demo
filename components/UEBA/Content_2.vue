@@ -9,7 +9,7 @@
     <el-main class="main">
       <div class="content">
         <img
-          src="@/images/UEBA/用户行为分析系统(UEBA).png"
+          src="/UEBA/用户行为分析系统(UEBA).png"
           alt=""
           style="width: 800px"
         />

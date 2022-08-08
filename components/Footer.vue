@@ -45,7 +45,7 @@
         </div>
         <div class="content-5">
           <h2 class="title">联系我们</h2>
-          <img src="@/images/Home/u20.png" alt="" style="width: 120px" />
+          <img src="/Home/footer部分logo.png" alt="" style="width: 120px" />
           <div class="contact">
             <div class="text">联系电话：021-64325036</div>
 
@@ -58,7 +58,7 @@
     </el-header>
     <el-footer class="footer">
       <div class="content-6">
-        <img src="@/images/Home/u385.png" alt="" />
+        <img src="/Home/business-license.png" alt="" style="width: 24px" />
         <div class="text-small">沪公网安备 3101040200026号</div>
         <div class="text-small">沪ICP备13042765号-1</div>
         <div class="text-small">圣一信息 版权所有</div>

@@ -8,11 +8,7 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img
-          src="@/images/Analysis/日志分析平台.png"
-          alt=""
-          style="width: 800px"
-        />
+        <img src="/Analysis/日志分析平台.png" alt="" style="width: 800px" />
       </div>
     </el-main>
   </el-container>

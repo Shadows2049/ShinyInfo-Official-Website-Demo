@@ -2,64 +2,37 @@
   <div class="content-container">
     <el-container>
       <el-main class="main">
-        <div class="content-1">
-          <div class="content-1-1">
-            <div class="line"></div>
-            <h1 class="title-s">变更与发布管理</h1>
-            <div class="text">{{ text1 }}</div>
-          </div>
-          <div class="pic2">
-            <img
-              src="@/images/ITSM/变更与发布管理.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-        </div>
-        <div class="content-1">
-          <div class="pic3">
-            <img
-              src="@/images/ITSM/工单与CMDB对接.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-          <div class="content-1-2">
-            <div class="content-1-2-1">
-              <div class="line"></div>
-              <h1 class="title-s">工单与CMDB对接</h1>
-              <div class="text">{{ text2_1 }}</div>
-            </div>
-          </div>
-        </div>
-        <div class="content-1">
-          <div class="content-1-1">
-            <div class="line"></div>
-            <h1 class="title-s">流程模型配置</h1>
-            <div class="text">{{ text3 }}</div>
-          </div>
-          <div class="pic4">
-            <img
-              src="@/images/ITSM/流程模型配置.png"
-              alt=""
-              style="width: 640px"
-            />
-          </div>
-        </div>
+        <bodyContent :content="content" />
       </el-main>
     </el-container>
   </div>
 </template>
 <script>
+import bodyContent from '@/components/ContentB.vue'
 export default {
+  components: { bodyContent },
   data() {
     return {
-      text1:
-        '通过工单关联配置项，可配置自动化执行变更、自动发布，保证变更与发布规范化操作并提升管理效率。',
-      text2_1:
-        'CMDB数据为各大管理流程用于资源定位、故障根因分析、变更影响分析等。',
-      text3:
-        '通过数字 IT 工作流程转变您的业务。配置多种业务场景流程如：事件管理、问题管理、服务请求、变更管理、发布管理、知识管理等。'
+      content: [
+        {
+          title: '变更与发布管理',
+          content:
+            '通过工单关联配置项，可配置自动化执行变更、自动发布，保证变更与发布规范化操作并提升管理效率。',
+          url: '/ITSM/变更与发布管理.png'
+        },
+        {
+          title: '工单与CMDB对接',
+          content:
+            'CMDB数据为各大管理流程用于资源定位、故障根因分析、变更影响分析等。',
+          url: '/ITSM/工单与CMDB对接.png'
+        },
+        {
+          title: '流程模型配置',
+          content:
+            '通过数字 IT 工作流程转变您的业务。配置多种业务场景流程如：事件管理、问题管理、服务请求、变更管理、发布管理、知识管理等。',
+          url: '/ITSM/流程模型配置.png'
+        }
+      ]
     }
   }
 }
@@ -76,44 +49,5 @@ export default {
   letter-spacing: 0;
   text-align: center;
   margin-top: 60px;
-}
-
-.content-1 {
-  position: relative;
-  margin-top: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.text {
-  position: relative;
-  max-width: 400px;
-  font-family: PSR;
-  font-size: 16px;
-  color: #666a72;
-  letter-spacing: 0;
-  line-height: 21px;
-}
-.pic2,
-.pic4 {
-  margin-left: 100px;
-  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
-}
-.pic3 {
-  margin-right: 100px;
-  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
-}
-.title-s {
-  font-family: PSR;
-  font-size: 25px;
-  color: #333333;
-  letter-spacing: 0;
-}
-.line {
-  transform: scaleY(-1);
-  background: #1370ee;
-  border-radius: 4px;
-  width: 60px;
-  height: 4px;
 }
 </style>

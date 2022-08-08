@@ -8,7 +8,7 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img src="@/images/Alert/告警平台.png" alt="" style="width: 600px" />
+        <img src="/Alert/告警平台.png" alt="" style="width: 600px" />
       </div>
     </el-main>
   </el-container>

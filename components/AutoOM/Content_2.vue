@@ -8,13 +8,9 @@
     </el-header>
     <el-main class="main">
       <div class="content">
+        <img src="/AutoOM/圣一自动化运维1.png" alt="" style="width: 364px" />
         <img
-          src="@/images/AutoOM/圣一自动化运维1.png"
-          alt=""
-          style="width: 364px"
-        />
-        <img
-          src="@/images/AutoOM/圣一自动化运维2.png"
+          src="/AutoOM/圣一自动化运维2.png"
           alt=""
           style="width: 640px; margin-left: 98px"
         />

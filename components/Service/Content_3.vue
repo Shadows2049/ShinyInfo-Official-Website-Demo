@@ -10,7 +10,7 @@
           </div>
           <div class="pic2">
             <img
-              src="@/images/Service/KPI_服务水平监控.png"
+              src="/Service/KPI_服务水平监控.png"
               alt=""
               style="height: 360px"
             />
@@ -18,11 +18,7 @@
         </div>
         <div class="content-1">
           <div class="pic3">
-            <img
-              src="@/images/Service/IT服务视图.png"
-              alt=""
-              style="height: 360px"
-            />
+            <img src="/Service/IT服务视图.png" alt="" style="height: 360px" />
           </div>
           <div class="content-1-2">
             <div class="content-1-2-1">
@@ -44,7 +40,7 @@
           </div>
           <div class="pic4">
             <img
-              src="@/images/Service/机器学习和预测分析.png"
+              src="/Service/机器学习和预测分析.png"
               alt=""
               style="height: 360px"
             />

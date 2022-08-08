@@ -3,7 +3,7 @@
     <div class="home">
       <!-- 容器(外层盒子) -->
       <i @click="btnCilck(412)" class="left-btn">
-        <img src="@/images/Home/上一个.svg" alt=""
+        <img src="/Home/上一个.svg" alt=""
       /></i>
       <div
         ref="scrollOuter"
@@ -32,7 +32,7 @@
         <!-- 右箭头 (>) -->
       </div>
       <i @click="btnCilck(-412)" class="right-btn"
-        ><img src="@/images/Home/下一个.svg" alt=""
+        ><img src="/Home/下一个.svg" alt=""
       /></i>
     </div>
   </div>

@@ -10,9 +10,9 @@
       <el-main>
         <div class="main0">
           <div class="content">
-            <img src="@/images/CMDB/1.png" alt="" style="width: 520px" />
+            <img src="/CMDB/1.png" alt="" style="width: 520px" />
             <img
-              src="@/images/CMDB/2.jpg"
+              src="/CMDB/2.jpg"
               alt=""
               style="
                 margin-left: 100px;
@@ -30,7 +30,7 @@
           </div>
           <div class="pic2">
             <img
-              src="@/images/CMDB/3.jpg"
+              src="/CMDB/3.jpg"
               alt=""
               style="
                 width: 520px;
@@ -50,19 +50,11 @@
             </el-header>
             <el-body class="content-3">
               <div class="pic5">
-                <img
-                  src="@/images/CMDB/数据消费.png"
-                  alt=""
-                  style="height: 400px"
-                />
+                <img src="/CMDB/数据消费.png" alt="" style="height: 400px" />
               </div>
               <div class="text-box">
                 <div class="small-box">
-                  <img
-                    src="@/images/CMDB/标题符号.svg"
-                    alt=""
-                    style="height: 28px"
-                  />
+                  <img src="/CMDB/标题符号.svg" alt="" style="height: 28px" />
                   <div class="text_">
                     <h1 class="title-ss">流程消费</h1>
                     <div class="text">{{ text2_1 }}</div>
@@ -70,11 +62,7 @@
                 </div>
                 <div class="small-box">
                   <div>
-                    <img
-                      src="@/images/CMDB/标题符号.svg"
-                      alt=""
-                      style="height: 28px"
-                    />
+                    <img src="/CMDB/标题符号.svg" alt="" style="height: 28px" />
                   </div>
                   <div class="text_">
                     <h1 class="title-ss">自动化消费</h1>
@@ -82,11 +70,7 @@
                   </div>
                 </div>
                 <div class="small-box">
-                  <img
-                    src="@/images/CMDB/标题符号.svg"
-                    alt=""
-                    style="height: 28px"
-                  />
+                  <img src="/CMDB/标题符号.svg" alt="" style="height: 28px" />
                   <div class="text_">
                     <h1 class="title-ss">监控消费</h1>
                     <div class="text">{{ text2_3 }}</div>
