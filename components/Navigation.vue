@@ -11,10 +11,7 @@
     >
       <div class="logo">
         <el-menu-item index="/"
-          ><img
-            src="@/images/Home/logo深蓝色版.png"
-            alt="logo"
-            style="width: 160px"
+          ><img src="/Home/logo深蓝色版.png" alt="logo" style="width: 160px"
         /></el-menu-item>
       </div>
       <div class="navi">
