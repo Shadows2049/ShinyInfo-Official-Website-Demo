@@ -8,12 +8,8 @@
         <div class="description">
           {{ text1 }}
         </div>
-        <div class="content">
-          <img
-            src="/ITSM/圣一IT服务管理(ITSM).png"
-            alt=""
-            style="width: 600px"
-          />
+        <div class="pic1">
+          <img src="/Observation/u2152.png" alt="" style="width: 600px" />
         </div>
       </el-main>
     </el-container>
@@ -23,11 +19,7 @@
       </el-header>
       <el-main class="main">
         <div class="content">
-          <img
-            src="/ITSM/圣一IT服务管理(ITSM).png"
-            alt=""
-            style="width: 600px"
-          />
+          <img src="/Observation/u2305.png" alt="" style="width: 600px" />
         </div>
       </el-main>
     </el-container>
@@ -72,5 +64,8 @@ export default {
 }
 .content {
   margin-top: -50px;
+}
+.pic1 {
+  margin-left: 80px;
 }
 </style>

@@ -4,7 +4,7 @@
       <el-main class="main">
         <div class="content-1">
           <div class="pic3">
-            <img src="/ITSM/工单与CMDB对接.png" alt="" style="width: 640px" />
+            <img src="/ITOM/u1960.png" alt="" style="width: 640px" />
           </div>
           <div class="content-1-2">
             <div class="content-1-2-1">

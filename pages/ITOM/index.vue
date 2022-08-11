@@ -13,7 +13,7 @@ import content3 from '@/components/ITOM/Content_3.vue'
 import content4 from '@/components/ITOM/Content_4.vue'
 export default {
   data() {
-    return { title: 'ITOM' }
+    return { title: 'IT运维管理' }
   },
   head() {
     return {
