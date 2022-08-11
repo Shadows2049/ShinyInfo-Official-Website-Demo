@@ -46,8 +46,8 @@
         <el-submenu index="3" class="sub3">
           <template slot="title">我们</template>
           <el-menu-item index="/AboutUs">关于我们</el-menu-item>
-          <el-menu-item index="/ContactUs">联系我们</el-menu-item>
           <el-menu-item index="/JoinUs">加入我们</el-menu-item>
+          <el-menu-item index="/ContactUs">联系我们</el-menu-item>
         </el-submenu>
       </div>
     </el-menu>
