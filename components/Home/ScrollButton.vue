@@ -18,7 +18,7 @@
           class="scroll-body"
           :style="{ left: tagBodyLeft + 'px' }"
         >
-          <div v-for="item in items">
+          <div v-for="item in content">
             <el-card class="box-card">
               <div slot="header" class="clearfix">
                 <span class="title">{{ item.title }}</span>
@@ -39,39 +39,14 @@
 </template>
 <script>
 export default {
+  props: {
+    content: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
-      items: [
-        {
-          title: 'CMDB',
-          content:
-            '定义CMDB质量相关的度量指标，并形成统计报表。符合国家金融行业IT运维系统规范标准。'
-        },
-        {
-          title: 'ITSM',
-          content: '以客户价值为导向融合ITIL4构建。'
-        },
-        {
-          title: '自动化运维',
-          content: '一键部署，提供跨平台自动化编排能力。'
-        },
-        {
-          title: 'data',
-          content: 'data'
-        },
-        {
-          title: 'data',
-          content: 'data'
-        },
-        {
-          title: 'data',
-          content: 'data。'
-        },
-        {
-          title: 'data',
-          content: 'data。'
-        }
-      ],
       tagBodyLeft: 0
     }
   },

@@ -107,4 +107,7 @@ export default {
   justify-content: center;
   display: flex;
 }
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
 </style>

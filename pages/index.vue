@@ -68,9 +68,9 @@
 
 <script>
 import carousel from '@/components/Carousel.vue'
-import content1 from '@/components/Home/Selector/1/Content_1.vue'
-import content2 from '@/components/Home/Selector/2/Content_2.vue'
-import content3 from '@/components/Home/Selector/3/Content_3.vue'
+import content1 from '@/components/Home/Selector/Content_1.vue'
+import content2 from '@/components/Home/Selector/Content_2.vue'
+import content3 from '@/components/Home/Selector/Content_3.vue'
 import content4 from '@/components/Home/Content_4.vue'
 import content5 from '@/components/Home/Content_5.vue'
 export default {
@@ -182,5 +182,8 @@ footer.el-footer {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
 }
 </style>

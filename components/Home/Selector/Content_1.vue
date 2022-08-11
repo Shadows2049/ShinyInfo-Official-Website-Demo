@@ -1,18 +1,18 @@
 <template>
   <div>
     <div class="content-container-1">
-      <div class="image-1">
-        <img
-          src="/Home/可观察性插图.png"
-          alt=""
-          class="image-1-1"
-          style="height: 302px"
-        />
-      </div>
       <div class="text-1">
         <div class="text-1-1">
           {{ text1 }}
         </div>
+      </div>
+      <div class="image-1">
+        <img
+          src="/Home/IT运维管理插图.png"
+          alt=""
+          class="image-1-1"
+          style="height: 400px"
+        />
       </div>
     </div>
     <div class="content-container-2">
@@ -32,18 +32,49 @@
         </div>
       </div>
       <div class="scroll">
-        <scrollButton />
+        <scrollButton :content="content" />
       </div>
     </div>
   </div>
 </template>
 <script>
-import scrollButton from './ScrollButton.vue'
+import scrollButton from '../ScrollButton.vue'
 export default {
   data() {
     return {
       text1:
-        '可观测具备统一、系统、智能、敏捷、面向业务全栈IT运维，以更高效也更成熟的方式赋能业务和管理，支撑运维数字化持续演进和发展。'
+        '圣一信息运维管理将ITIL方法与实践管理经验融合，以CMDB为核心的一体化运维管理平台，实现统一监控、自动化运维和服务流程化管理。基于大数据、算法、自动化智能场景，关联应用业务和服务管理流程，赋能企业用户智能化运维升级。',
+      content: [
+        {
+          title: 'CMDB',
+          content:
+            '定义CMDB质量相关的度量指标，并形成统计报表。符合国家金融行业IT运维系统规范标准。'
+        },
+        {
+          title: 'ITSM',
+          content: '以客户价值为导向融合ITIL4构建。'
+        },
+        {
+          title: '自动化运维',
+          content: '一键部署，提供跨平台自动化编排能力。'
+        },
+        {
+          title: 'data',
+          content: 'data'
+        },
+        {
+          title: 'data',
+          content: 'data'
+        },
+        {
+          title: 'data',
+          content: 'data。'
+        },
+        {
+          title: 'data',
+          content: 'data。'
+        }
+      ]
     }
   },
   components: {
@@ -82,13 +113,12 @@ export default {
 
 .image-1-1 {
   position: relative;
-
-  right: 100px;
+  left: 100px;
 }
 .text-2 {
   position: relative;
-  font-family: PSR;
-  font-size: 35px;
+  font-family: PSM;
+  font-size: 30px;
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;
