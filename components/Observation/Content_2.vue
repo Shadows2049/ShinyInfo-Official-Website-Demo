@@ -38,6 +38,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
+  font-family: PSM;
   height: 563px;
 }
 .main {
@@ -46,7 +47,6 @@ export default {
   justify-content: center;
 }
 .title {
-  font-family: PSM;
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
