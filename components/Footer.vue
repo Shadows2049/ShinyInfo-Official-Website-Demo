@@ -105,7 +105,8 @@ export default {
   letter-spacing: 0;
   line-height: 27px;
 }
-.text {
+.text,
+.text-l {
   font-family: PSR;
   font-size: 15px;
   color: #ffffff;
@@ -114,12 +115,6 @@ export default {
   text-decoration: none;
 }
 .text-l {
-  font-family: PSR;
-  font-size: 15px;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: 30px;
-  text-decoration: none;
   cursor: pointer;
 }
 .content-0 {
