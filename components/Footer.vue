@@ -51,7 +51,16 @@
 
             <div class="text">邮箱：contact@shinyinfo.com.cn</div>
 
-            <div class="text">地址：上海市徐汇区漕宝路70号C座2406室</div>
+            <div
+              @click="
+                goPage(
+                  'https://map.baidu.com/search/%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF70%E5%8F%B7c%E5%BA%A72406%E5%AE%A4/@13518203.125000004,3633043.9999999986,19z?querytype=s&da_src=shareurl&wd=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF70%E5%8F%B7C%E5%BA%A72406%E5%AE%A4&c=1&src=0&pn=0&sug=0&l=4&b=(-4138582.039999999,-3382699.25;27318697.96,12362324.75)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1'
+                )
+              "
+              class="text-l"
+            >
+              地址：上海市徐汇区漕宝路70号C座2406室
+            </div>
           </div>
         </div>
       </div>
@@ -67,7 +76,13 @@
   </el-container>
 </template>
 <script>
-export default {}
+export default {
+  methods: {
+    goPage(url) {
+      window.location.href = url
+    }
+  }
+}
 </script>
 <style scoped>
 .content-container {
@@ -97,6 +112,15 @@ export default {}
   letter-spacing: 0;
   line-height: 30px;
   text-decoration: none;
+}
+.text-l {
+  font-family: PSR;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .content-0 {
   margin-top: 20px;
