@@ -18,25 +18,25 @@
             text-color="#333333"
             active-text-color="white"
           >
-            <el-menu-item index="1" @click="parentMethod(1)" class="text"
+            <el-menu-item index="1" @click="changeFlag(0)" class="text"
               >银行</el-menu-item
             >
-            <el-menu-item index="2" @click="parentMethod(2)" class="text"
+            <el-menu-item index="2" @click="changeFlag(1)" class="text"
               >保险</el-menu-item
             >
-            <el-menu-item index="3" @click="parentMethod(3)" class="text"
+            <el-menu-item index="3" @click="changeFlag(2)" class="text"
               >基金/证券</el-menu-item
             >
-            <el-menu-item index="4" @click="parentMethod(4)" class="text"
+            <el-menu-item index="4" @click="changeFlag(3)" class="text"
               >科技/电子信息</el-menu-item
             >
-            <el-menu-item index="5" @click="parentMethod(5)" class="text"
+            <el-menu-item index="5" @click="changeFlag(4)" class="text"
               >物流</el-menu-item
             >
-            <el-menu-item index="6" @click="parentMethod(6)" class="text"
+            <el-menu-item index="6" @click="changeFlag(5)" class="text"
               >互联网企业</el-menu-item
             >
-            <el-menu-item index="7" @click="parentMethod(7)" class="text"
+            <el-menu-item index="7" @click="changeFlag(6)" class="text"
               >其他</el-menu-item
             >
           </el-menu>
@@ -44,7 +44,7 @@
         <div class="cardList">
           <div class="content-container">
             <div>
-              <scrollButton2 ref="child" />
+              <scrollButton2 ref="child" :flag="flag" />
             </div>
           </div>
         </div>
@@ -57,46 +57,18 @@ import scrollButton2 from './ScrollButton_2.vue'
 export default {
   data() {
     return {
-      flag: 1,
+      flag: 0,
       activeIndex: '1'
     }
   },
   methods: {
-    changeFlag(index) {
-      this.flag = index
-    },
     handleSelect(key, keyPath) {
       console.log(key, keyPath)
     },
-    parentMethod(index) {
-      if (index === 1) {
-        this.$refs.child.bankUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 2) {
-        this.$refs.child.insuranceUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 3) {
-        this.$refs.child.investmentUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 4) {
-        this.$refs.child.techUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 5) {
-        this.$refs.child.logisticsUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 6) {
-        this.$refs.child.internetUpdate()
-        this.$forceUpdate()
-      }
-      if (index === 7) {
-        this.$refs.child.othersUpdate()
-        this.$forceUpdate()
-      }
+    changeFlag(index) {
+      this.flag = index
+      this.$refs.child.resetPosition()
+      this.$forceUpdate()
     }
   },
   components: { scrollButton2 }
