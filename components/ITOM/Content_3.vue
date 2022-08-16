@@ -11,25 +11,15 @@
               <img src="/ITOM/CMDB.jpg" alt="" style="width: 640px" />
             </div>
             <div class="content-1-2">
-              <div class="text-box">
+              <div class="text-box" v-for="item in items">
                 <div class="small-box">
-                  <img src="/CMDB/标题符号.svg" alt="" style="height: 28px" />
+                  <img
+                    :src="item.url"
+                    alt=""
+                    style="height: 28px; margin-top: 15px"
+                  />
                   <div class="text_">
-                    <div class="textB">{{ text2_1 }}</div>
-                  </div>
-                </div>
-                <div class="small-box">
-                  <div>
-                    <img src="/ITOM/标题符号.svg" alt="" style="height: 28px" />
-                  </div>
-                  <div class="text_">
-                    <div class="textB">{{ text2_2 }}</div>
-                  </div>
-                </div>
-                <div class="small-box">
-                  <img src="/ITOM/标题符号.svg" alt="" style="height: 28px" />
-                  <div class="text_">
-                    <div class="textB">{{ text2_3 }}</div>
+                    <div class="textB">{{ item.content }}</div>
                   </div>
                 </div>
               </div>
@@ -101,6 +91,20 @@ export default {
           content:
             '1.工作流自动化：IT 服务流程可灵活定义，自动分派工单指派到人\n2.SLA 确保满意度：灵活制定多级 SLA，配合到期提醒，确保服务质量\n3.智能机器人查询及处理\n4.与自动化深度结合，支持线上审批',
           url: '/ITOM/最佳ITSM工作流程.png'
+        }
+      ],
+      items: [
+        {
+          content: 'IT资源统一管理，随时查看IT资源及其运行情况',
+          url: '/ITOM/标题符号.svg'
+        },
+        {
+          content: '自动发现IT资产配置信息释放人力成本',
+          url: '/ITOM/标题符号.svg'
+        },
+        {
+          content: 'CI关联关系可视化IT资源',
+          url: '/ITOM/标题符号.svg'
         }
       ],
       text2_1: 'IT资源统一管理，随时查看IT资源及其运行情况',

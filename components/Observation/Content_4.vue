@@ -8,14 +8,13 @@
         <div v-for="(item, index) in data" :key="index" :label="item">
           <div class="box-s">
             <div class="text-s">
-              <div class="pic-s">
-                <img :src="item.url" alt="" />
-              </div>
               <div class="content-s">
                 {{ item.content }}<br />
                 <div class="sub">
                   {{ item.text }}
                 </div>
+              </div>
+              <div class="link">
                 <nuxt-link
                   :to="item.link"
                   style="text-decoration: none; color: #1370ee"
@@ -36,24 +35,27 @@ export default {
       data: [
         {
           content: '服务智能',
-          url: '/General/1.svg',
           text: '服务可用性与性能监控可观察运维自动化。',
           link: '/Service',
           text2: '圣一服务智能 >'
         },
         {
           content: '基础监控',
-          url: '/General/2.svg',
           text: '监控IT基础设施运行状态。',
           link: '/Monitor',
           text2: '圣一基础监控 >'
         },
         {
           content: '告警平台',
-          url: '/General/3.svg',
           text: '管理服务应用和基础设备告警，告警收敛处理。',
           link: '/Alert',
           text2: '圣一告警平台 >'
+        },
+        {
+          content: '日志分析',
+          text: '从海量数据中快速定位问题。更好的达成新信息化时代的企业数字化转型，提高企业数据价值。',
+          link: '/Analysis',
+          text2: '圣一日志分析 >'
         }
       ]
     }
@@ -62,9 +64,8 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 790px;
-  background-image: url('/General/bg.png');
-  background-size: 1920px 790px;
+  height: 590px;
+  background: #f3f8fe;
 }
 .main {
   display: flex;
@@ -89,12 +90,12 @@ export default {
   margin-top: -50px;
 }
 .box-s {
-  width: 380px;
+  width: 387px;
   height: 180px;
   background: #ffffff;
-  box-shadow: 0 0 20px 0 rgba(19, 112, 238, 0.15);
+  box-shadow: 0 0 20px 0 rgba(19, 112, 238, 0.15), inset 5px 0 0 0 #1370ee;
   border-radius: 12px;
-  margin: 10px auto;
+  margin-top: 20px;
 }
 
 .text-s {
@@ -103,12 +104,14 @@ export default {
   font-size: 25px;
   color: #333333;
   letter-spacing: 0;
-  display: flex;
-  align-items: center;
-  top: 10px;
+  top: 20px;
 }
 .content-s {
   margin-left: 40px;
+  font-family: PSR;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0;
 }
 .pic-s {
   margin-left: 40px;
@@ -120,5 +123,15 @@ export default {
   letter-spacing: 0;
   line-height: 21px;
   margin-top: 12px;
+  max-width: 307px;
+}
+.link {
+  position: absolute;
+  font-family: PSR;
+  font-size: 16px;
+  color: #1370ee;
+  letter-spacing: 0;
+  top: 120px;
+  margin-left: 40px;
 }
 </style>

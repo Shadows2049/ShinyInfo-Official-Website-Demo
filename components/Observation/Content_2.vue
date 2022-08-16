@@ -1,7 +1,7 @@
 <template>
   <div>
-    <el-container class="content-container">
-      <el-header height="200px">
+    <el-container class="content-container1">
+      <el-header height="100px">
         <h1 class="title">方案介绍</h1>
       </el-header>
       <el-main class="main">
@@ -9,17 +9,21 @@
           {{ text1 }}
         </div>
         <div class="pic1">
-          <img src="/Observation/u2152.png" alt="" style="width: 600px" />
+          <img src="/Observation/方案介绍.png" alt="" style="width: 640px" />
         </div>
       </el-main>
     </el-container>
-    <el-container class="content-container">
-      <el-header height="200px">
+    <el-container class="content-container2">
+      <el-header height="100px">
         <h1 class="title">可观察性方案</h1>
       </el-header>
       <el-main class="main">
         <div class="content">
-          <img src="/Observation/u2305.png" alt="" style="width: 600px" />
+          <img
+            src="/Observation/可观察性方案.png"
+            alt=""
+            style="width: 1200px"
+          />
         </div>
       </el-main>
     </el-container>
@@ -37,9 +41,12 @@ export default {
 }
 </script>
 <style scoped>
-.content-container {
-  font-family: PSM;
-  height: 563px;
+.content-container1 {
+  height: 610px;
+}
+.content-container2 {
+  height: 718px;
+  background: #f3f8fe;
 }
 .main {
   display: flex;
@@ -47,6 +54,7 @@ export default {
   justify-content: center;
 }
 .title {
+  font-family: PSM;
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -56,10 +64,10 @@ export default {
 
 .description {
   position: relative;
-  max-width: 500px;
+  max-width: 400px;
   font-family: PSR;
   font-size: 18px;
-  color: #666a72;
+  color: #333333;
   letter-spacing: 1px;
 }
 .content {
