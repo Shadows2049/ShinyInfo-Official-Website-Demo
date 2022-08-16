@@ -12,7 +12,11 @@
         <img
           src="/AutoOM/圣一自动化运维2.png"
           alt=""
-          style="width: 640px; margin-left: 98px"
+          style="
+            width: 640px;
+            margin-left: 98px;
+            box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.1);
+          "
         />
       </div>
     </el-main>

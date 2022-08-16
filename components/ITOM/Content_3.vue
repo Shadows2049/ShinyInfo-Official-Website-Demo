@@ -1,34 +1,54 @@
 <template>
   <div class="content-container">
-    <el-container>
+    <el-container class="c1">
+      <el-header height="180px">
+        <h1 class="title">全生命周期管理 IT 资源(CMDB)</h1>
+      </el-header>
       <el-main class="main">
-        <div class="content-1">
-          <div class="pic3">
-            <img src="/ITOM/u1960.png" alt="" style="width: 640px" />
+        <div class="upper">
+          <div class="content-1">
+            <div class="pic3">
+              <img src="/ITOM/CMDB.jpg" alt="" style="width: 640px" />
+            </div>
+            <div class="content-1-2">
+              <div class="text-box">
+                <div class="small-box">
+                  <img src="/CMDB/标题符号.svg" alt="" style="height: 28px" />
+                  <div class="text_">
+                    <div class="textB">{{ text2_1 }}</div>
+                  </div>
+                </div>
+                <div class="small-box">
+                  <div>
+                    <img src="/ITOM/标题符号.svg" alt="" style="height: 28px" />
+                  </div>
+                  <div class="text_">
+                    <div class="textB">{{ text2_2 }}</div>
+                  </div>
+                </div>
+                <div class="small-box">
+                  <img src="/ITOM/标题符号.svg" alt="" style="height: 28px" />
+                  <div class="text_">
+                    <div class="textB">{{ text2_3 }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="content-1-2">
-            <div class="content-1-2-1">
-              <div class="line"></div>
-              <h1 class="title-s">全生命周期管理 IT 资源（CMDB）</h1>
-              <div class="text">
-                1.IT资源统一管理,随时查看 IT 资源及其运行情况 <br />
-                2.自动发现IT资产配置信息释放人力成本<br />3.CI关联关系可视化IT资源
+          <div class="content-box">
+            <div v-for="item in data">
+              <div class="box">
+                <div class="innerBox">
+                  <h1 class="title-s">{{ item.title }}</h1>
+                  <div class="text-s">{{ item.content }}</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="content-box">
-          <div v-for="item in data">
-            <div class="box">
-              <h1 class="title-s">{{ item.title }}</h1>
-              <br />
-              <div class="text">{{ item.content }}</div>
-            </div>
-          </div>
-        </div>
-        <bodyContent :content="content" />
       </el-main>
     </el-container>
+    <bodyContent :content="content" />
   </div>
 </template>
 <script>
@@ -56,41 +76,43 @@ export default {
           title: '统一资源监控',
           content:
             '基于资源模型，统一规划监控方案，方案完全覆盖所有资源节点及完整的应用链路。',
-          url: '/ITOM/u2064.png'
+          url: '/ITOM/统一资源监控.jpg'
         },
         {
           title: '可视化与决策分析',
           content:
             '异常事件统计分析数据可视化，直接明了关注信息集中展示运维更直观。',
-          url: '/ITOM/u2066.png'
+          url: '/ITOM/可视化与决策分析.jpg'
         },
         {
           title: '精准故障定位',
           content:
             '网络全链路跟踪，故障探查无死角告警智能收敛，避免重复告警，精准定位故障资源节点。',
-          url: '/ITOM/u2064.png'
+          url: '/ITOM/精准故障定位.png'
         },
         {
           title: '面向场景的自动化运维',
           content:
             '丰富的运维脚本库和灵活的编排能力，将日常的、复杂的运维操作标准化、流程化、自动化，从而减少了重复劳动力，降低人工操作风险，提升了企业智能运维效率。',
-          url: '/ITOM/u2068.png'
+          url: '/ITOM/面向场景的自动化运维.png'
         },
         {
           title: '最佳ITSM工作流程',
           content:
             '1.工作流自动化：IT 服务流程可灵活定义，自动分派工单指派到人\n2.SLA 确保满意度：灵活制定多级 SLA，配合到期提醒，确保服务质量\n3.智能机器人查询及处理\n4.与自动化深度结合，支持线上审批',
-          url: '/ITOM/u2070.png'
+          url: '/ITOM/最佳ITSM工作流程.png'
         }
-      ]
+      ],
+      text2_1: 'IT资源统一管理，随时查看IT资源及其运行情况',
+      text2_2: '自动发现IT资产配置信息释放人力成本',
+      text2_3: 'CI关联关系可视化IT资源'
     }
   }
 }
 </script>
 <style scoped>
 .content-container {
-  background-image: linear-gradient(180deg, #f3f8fe 0%, #ffffff 100%);
-  height: 3200px;
+  height: 3400px;
 }
 .title {
   font-family: PSM;
@@ -100,20 +122,23 @@ export default {
   text-align: center;
   margin-top: 60px;
 }
-
+.c1 {
+  height: 900px;
+  background: #f3f8fe;
+}
 .content-1 {
   position: relative;
-  margin-top: 120px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.text {
+.textB {
   position: relative;
   max-width: 400px;
   font-family: PSR;
-  font-size: 16px;
-  color: #666a72;
+  font-size: 24px;
+  color: #333333;
   letter-spacing: 0;
   line-height: 21px;
 }
@@ -128,7 +153,7 @@ export default {
 }
 .title-s {
   font-family: PSR;
-  font-size: 25px;
+  font-size: 20px;
   color: #333333;
   letter-spacing: 0;
 }
@@ -146,9 +171,36 @@ export default {
   height: 300px;
 }
 .box {
-  width: 300px;
-  height: 150px;
-  background-color: #a6bfe2;
+  width: 387px;
+  height: 160px;
+  background: #deecff;
+  border-radius: 12px;
   margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.innerBox {
+  margin-left: 60px;
+  margin-top: -30px;
+}
+.small-box {
+  display: flex;
+  margin: 10px 0;
+  align-items: baseline;
+}
+.text_ {
+  position: relative;
+  max-width: 360px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.text-s {
+  font-family: PSR;
+  font-size: 16px;
+  color: #666a72;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -10px;
 }
 </style>

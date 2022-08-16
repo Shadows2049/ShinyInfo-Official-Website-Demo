@@ -8,7 +8,14 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img src="/SIEM/安全运营平台(SIEM).png" alt="" style="width: 800px" />
+        <img
+          src="/SIEM/安全运营平台(SIEM).png"
+          alt=""
+          style="
+            width: 800px;
+            box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.1);
+          "
+        />
       </div>
     </el-main>
   </el-container>
