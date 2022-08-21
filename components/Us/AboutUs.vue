@@ -1,6 +1,6 @@
 <template>
   <el-container class="content-container">
-    <el-header height="200px">
+    <el-header height="180px">
       <h1 class="title"></h1>
       <div class="description">
         {{ text1 }}
@@ -8,11 +8,7 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img
-          src="/UEBA/用户行为分析系统(UEBA).png"
-          alt=""
-          style="width: 800px"
-        />
+        <img src="/US/u2488.png" alt="" style="width: 800px" />
       </div>
     </el-main>
   </el-container>
@@ -41,7 +37,7 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 800px;
+  height: 920px;
 }
 .main {
   display: flex;
@@ -63,9 +59,10 @@ export default {
   text-indent: 2em;
   font-family: PSR;
   font-size: 18px;
-  color: #666a72;
+  color: #333333;
   letter-spacing: 0;
-  text-align: center;
+  line-height: 24px;
+
   margin: -10px auto;
 }
 .content {

@@ -9,36 +9,44 @@
         mode="horizontal"
         background-color="#FFFFFF"
         text-color="#333333"
-        active-text-color="#1370EE"
+        active-text-color="#FFFFFF"
+        style="
+          box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
+          margin-top: -40px;
+          border-top-left-radius: 8px !important;
+          border-bottom-left-radius: 8px !important;
+          border-top-right-radius: 8px !important;
+          border-bottom-right-radius: 8px !important;
+        "
       >
         <el-menu-item
           index="1"
-          style="margin-right: 250px; height: 68px"
+          style="
+            width: 400px;
+            height: 80px;
+            border-top-left-radius: 8px !important;
+            border-bottom-left-radius: 8px !important;
+          "
           @click="changeFlag(1)"
         >
-          <img
-            src="/Home/IT运维管理.svg"
-            alt=""
-            style="margin-right: 12px; margin-bottom: 8px"
-          />
           关于我们</el-menu-item
         >
         <el-menu-item
           index="2"
-          style="margin-right: 250px; height: 68px"
+          style="width: 400px; height: 80px"
           @click="changeFlag(2)"
-          ><img
-            src="/Home/可观察性.svg"
-            alt=""
-            style="margin-right: 12px; margin-bottom: 8px"
-          />加入我们</el-menu-item
+          >加入我们</el-menu-item
         >
-        <el-menu-item index="3" @click="changeFlag(3)" style="height: 68px"
-          ><img
-            src="/Home/新一代安全运营.svg"
-            alt=""
-            style="margin-right: 12px; margin-bottom: 8px"
-          />联系我们</el-menu-item
+        <el-menu-item
+          index="3"
+          @click="changeFlag(3)"
+          style="
+            width: 400px;
+            height: 80px;
+            border-top-right-radius: 8px !important;
+            border-bottom-right-radius: 8px !important;
+          "
+          >联系我们</el-menu-item
         >
       </el-menu>
     </div>
@@ -101,13 +109,20 @@ export default {
   font-family: PSR;
   height: 56px;
   line-height: 56px;
-  font-size: 18px;
-  color: #303133;
+  font-size: 26px;
+  color: #ffffff;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 .el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
+.el-menu-item.is-active {
+  background-image: url('/US/bg.png');
+  background-size: 400px 80px;
+}
+.el-menu--horizontal > .el-menu-item.is-active {
   border-bottom: none;
 }
 </style>

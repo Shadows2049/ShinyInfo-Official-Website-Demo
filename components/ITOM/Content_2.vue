@@ -2,7 +2,7 @@
   <div>
     <el-container class="content-container">
       <el-header height="200px">
-        <h1 class="title">方案介绍</h1>
+        <h1 class="title">IT运维管理</h1>
         <div class="description">
           {{ text1 }}
         </div>

@@ -2,7 +2,7 @@
   <div>
     <el-container class="content-container1">
       <el-header height="100px">
-        <h1 class="title">方案介绍</h1>
+        <h1 class="title">可观察性</h1>
       </el-header>
       <el-main class="main">
         <div class="description">
