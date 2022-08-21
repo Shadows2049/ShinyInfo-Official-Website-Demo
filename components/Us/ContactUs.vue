@@ -1,75 +1,88 @@
 <template>
-  <div>
-    <el-container class="content-container">
-      <el-header height="200px">
-        <h1 class="title"></h1>
-        <div class="description">
-          {{ text1 }}
+  <div class="content-container">
+    <div class="main">
+      <div class="left">
+        <div class="left1">
+          <div class="pic1">
+            <img src="/US/上海.svg" alt="" />
+          </div>
+          <div class="description">上海</div>
+          <div class="text-box">
+            地址：上海市徐汇区漕宝路70号C座2406室<br />电话：021-64325036<br />
+            邮箱：contact@shinyinfo.com.cn
+          </div>
         </div>
-      </el-header>
-      <el-main class="main">
-        <div class="content">
-          <img
-            src="/UEBA/用户行为分析系统(UEBA).png"
-            alt=""
-            style="width: 800px"
-          />
-        </div>
-      </el-main>
-    </el-container>
-    <div class="form_">
-      <el-form :model="ruleForm" :rules="rules" ref="ruleForm">
-        <div class="group1">
-          <el-form-item prop="name">
+        <div class="line"></div>
+      </div>
+
+      <div class="form_">
+        <div class="title">预约产品体验</div>
+        <el-form
+          :model="ruleForm"
+          :rules="rules"
+          ref="ruleForm"
+          style="margin-top: 20px"
+        >
+          <div class="group1">
+            <el-form-item prop="name">
+              <el-input
+                v-model="ruleForm.name"
+                placeholder="*请输入您的姓名"
+                style="width: 350px"
+              ></el-input>
+            </el-form-item>
+            <el-form-item prop="email">
+              <el-input
+                v-model="ruleForm.email"
+                placeholder="*请输入您的邮箱"
+                style="width: 350px; margin-left: 50px"
+              >
+              </el-input>
+            </el-form-item>
+          </div>
+
+          <div class="group2">
+            <el-form-item prop="phone">
+              <el-input
+                v-model.number="ruleForm.phone"
+                placeholder="*请输入您的电话"
+                style="width: 350px"
+              ></el-input>
+            </el-form-item>
+
+            <el-form-item prop="company">
+              <el-input
+                v-model="ruleForm.company"
+                placeholder="*公司名称"
+                style="width: 350px; margin-left: 50px"
+              >
+              </el-input>
+            </el-form-item>
+          </div>
+
+          <el-form-item prop="desc">
             <el-input
-              v-model="ruleForm.name"
-              placeholder="*请输入您的姓名"
-              style="width: 500px"
+              type="textarea"
+              v-model="ruleForm.desc"
+              placeholder="目前在运维领域的痛点"
             ></el-input>
           </el-form-item>
-          <el-form-item prop="email">
-            <el-input
-              v-model="ruleForm.email"
-              placeholder="*请输入您的邮箱"
-              style="width: 500px; margin-left: 50px"
+          <el-form-item style="width: 152px; margin-left: auto">
+            <el-button
+              type="primary"
+              @click="submitForm('ruleForm')"
+              style="
+                background: #1370ee;
+                box-shadow: 3px 3px 20px 0 rgba(19, 112, 238, 0.2);
+                border-radius: 30px;
+                width: 152px;
+                height: 60px;
+              "
+              ><div class="text-s">提交预约</div></el-button
             >
-            </el-input>
           </el-form-item>
-        </div>
-
-        <div class="group2">
-          <el-form-item prop="phone">
-            <el-input
-              v-model.number="ruleForm.phone"
-              placeholder="*请输入您的电话"
-              style="width: 500px"
-            ></el-input>
-          </el-form-item>
-
-          <el-form-item prop="company">
-            <el-input
-              v-model="ruleForm.company"
-              placeholder="*公司名称"
-              style="width: 500px; margin-left: 50px"
-            >
-            </el-input>
-          </el-form-item>
-        </div>
-
-        <el-form-item prop="desc">
-          <el-input
-            type="textarea"
-            v-model="ruleForm.desc"
-            placeholder="目前在运维领域的痛点"
-          ></el-input>
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary" @click="submitForm('ruleForm')"
-            >提交预约</el-button
-          >
-          <el-button @click="resetForm('ruleForm')">重置</el-button>
-        </el-form-item>
-      </el-form>
+        </el-form>
+      </div>
     </div>
   </div>
 </template>
@@ -129,32 +142,36 @@ export default {
 </script>
 <style scoped>
 .content-container {
-  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1200px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.1);
+  border-radius: 12px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 .title {
-  font-family: PSM;
-  font-size: 36px;
-  color: #1370ee;
+  font-family: PSR;
+  font-size: 26px;
+  color: #333333;
   letter-spacing: 0;
-  text-align: center;
-  margin-top: 60px;
 }
 
 .description {
-  position: relative;
-  max-width: 1000px;
-  text-indent: 2em;
   font-family: PSR;
-  font-size: 18px;
-  color: #666a72;
+  font-size: 20px;
+  color: #333333;
   letter-spacing: 0;
   text-align: center;
-  margin: -10px auto;
+  margin-top: 20px;
 }
 .content {
   display: flex;
@@ -163,16 +180,36 @@ export default {
   width: 1200px;
   margin-top: -50px;
 }
+.pic1 {
+  text-align: center;
+}
 .form_ {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.left {
+  position: relative;
+  top: 0;
+  width: 400px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left1 {
+  display: block;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 80px;
 }
 :deep(.el-input__inner) {
-  height: 70px;
+  background: #f5f7fa;
+
+  height: 60px;
 }
 
 :deep(.el-textarea__inner) {
+  background: #f5f7fa;
   height: 100px;
 }
 .group1 {
@@ -180,5 +217,25 @@ export default {
 }
 .group2 {
   display: flex;
+}
+.line {
+  border: 1px solid #ebeef5;
+  width: 1px;
+  height: 413px;
+  background: #ebeef5;
+}
+.text-box {
+  font-family: PSR;
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.text-s {
+  font-family: PSR;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0;
 }
 </style>
