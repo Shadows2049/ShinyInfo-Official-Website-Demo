@@ -26,7 +26,7 @@
           </div>
           <div class="right">
             <h4 class="title">简历投递</h4>
-            <div class="text">简历投递至：hr@shinyinfo.com.cn</div>
+            <div class="text-2">简历投递至：hr@shinyinfo.com.cn</div>
           </div>
         </div>
       </div>
@@ -88,7 +88,8 @@ export default {
   letter-spacing: 0;
 }
 
-.text {
+.text,
+.text-2 {
   white-space: pre-line;
   font-family: PSR;
   font-size: 16px;
@@ -96,6 +97,9 @@ export default {
   letter-spacing: 0;
   line-height: 28px;
   max-width: 516px;
+}
+.text-2 {
+  margin-top: -10px;
 }
 .title-s {
   font-family: PSR;

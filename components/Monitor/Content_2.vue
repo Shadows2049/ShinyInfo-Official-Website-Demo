@@ -2,9 +2,9 @@
   <el-container class="content-container">
     <el-header height="228px">
       <h1 class="title">基础监控</h1>
-      <div class="description">
+      <h4 class="description">
         {{ text1 }}
-      </div>
+      </h4>
     </el-header>
     <el-main class="main">
       <div class="content">

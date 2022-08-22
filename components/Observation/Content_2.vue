@@ -5,9 +5,9 @@
         <h1 class="title">可观察性</h1>
       </el-header>
       <el-main class="main">
-        <div class="description">
+        <h4 class="description">
           {{ text1 }}
-        </div>
+        </h4>
         <div class="pic1">
           <img src="/Observation/方案介绍.png" alt="" style="width: 640px" />
         </div>
@@ -67,7 +67,7 @@ export default {
   max-width: 400px;
   font-family: PSR;
   font-size: 18px;
-  color: #333333;
+  color: #666a72;
   letter-spacing: 1px;
 }
 .content {

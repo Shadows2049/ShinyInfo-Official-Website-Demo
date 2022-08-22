@@ -39,7 +39,7 @@
                 <el-input
                   v-model="ruleForm.email"
                   placeholder="*请输入您的邮箱"
-                  style="width: 350px; margin-left: 50px"
+                  style="width: 350px; margin-left: 20px"
                 >
                 </el-input>
               </el-form-item>
@@ -58,7 +58,7 @@
                 <el-input
                   v-model="ruleForm.company"
                   placeholder="*公司名称"
-                  style="width: 350px; margin-left: 50px"
+                  style="width: 350px; margin-left: 20px"
                 >
                 </el-input>
               </el-form-item>
@@ -211,17 +211,17 @@ export default {
 .left {
   position: relative;
   top: 0;
-  width: 400px;
+  width: 375px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 40px;
 }
 .left1 {
   display: block;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
-  margin-bottom: 80px;
+  margin: 0 auto;
 }
 .movable {
   background: #ffffff;

@@ -3,9 +3,9 @@
     <el-container class="content-container1">
       <el-header height="200px">
         <h1 class="title">新一代安全运营</h1>
-        <div class="description">
+        <h4 class="description">
           {{ text1 }}
-        </div>
+        </h4>
       </el-header>
       <el-main class="main">
         <div class="content">
@@ -16,9 +16,9 @@
     <el-container class="content-container2">
       <el-header height="200px">
         <h1 class="title">企业级安全运营平台</h1>
-        <div class="description">
+        <h4 class="description">
           {{ text2 }}
-        </div>
+        </h4>
       </el-header>
       <el-main class="main">
         <div class="content">
@@ -33,9 +33,9 @@
     <el-container class="content-container3">
       <el-header height="200px">
         <h1 class="title">帮助企业实现安全自动化运营</h1>
-        <div class="description">
+        <h4 class="description">
           {{ text3 }}
-        </div>
+        </h4>
       </el-header>
       <el-main class="main">
         <div class="content">
@@ -50,9 +50,9 @@
     <el-container class="content-container2">
       <el-header height="200px">
         <h1 class="title">基于机器学习的异常检测模型</h1>
-        <div class="description">
+        <h4 class="description">
           {{ text4 }}
-        </div>
+        </h4>
       </el-header>
       <el-main class="main">
         <div class="content">

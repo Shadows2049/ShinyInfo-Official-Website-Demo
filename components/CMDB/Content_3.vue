@@ -3,9 +3,9 @@
     <el-container class="content-0">
       <el-header height="200px">
         <h1 class="title">自定义配置项类型</h1>
-        <div class="description">
+        <h4 class="description">
           {{ text2 }}
-        </div>
+        </h4>
       </el-header>
       <el-main>
         <div class="main0">
