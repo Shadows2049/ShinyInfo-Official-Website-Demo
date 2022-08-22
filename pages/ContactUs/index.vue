@@ -80,13 +80,10 @@ export default {
 }
 </script>
 <style scoped>
-@font-face {
-  font-family: PSM;
-  src: url('@/fonts/PingFang-Medium.ttf');
-}
-@font-face {
-  font-family: PSR;
-  src: url('@/fonts/PingFangSC-Regular.ttf');
+body,
+td,
+th {
+  font-family: Arial, Helvetica, 'PingFang SC', 'Microsoft Yahei';
 }
 .content-1 {
   height: 500px;

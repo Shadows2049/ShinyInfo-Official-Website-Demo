@@ -123,14 +123,14 @@ export default {
   margin-top: 60px;
 }
 .title-s {
-  font-family: PSR;
-  font-size: 25px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 24px;
   color: #333333;
   letter-spacing: 0;
 }
 .title-ss {
-  font-family: PSR;
-  font-size: 25px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 24px;
   color: #333333;
   letter-spacing: 0;
   margin-bottom: 12px;
@@ -152,8 +152,8 @@ export default {
 .description {
   position: relative;
   max-width: 1000px;
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #666a72;
   letter-spacing: 0;
   text-align: center;
@@ -174,8 +174,8 @@ export default {
 .text {
   position: relative;
   max-width: 520px;
-  font-family: PSR;
-  font-size: 16px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;

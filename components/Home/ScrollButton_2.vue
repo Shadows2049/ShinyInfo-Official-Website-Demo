@@ -181,7 +181,7 @@ export default {
 </script>
 <style scoped>
 .title {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -189,8 +189,8 @@ export default {
   margin-top: 60px;
 }
 .description {
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #666a72;
   letter-spacing: 0;
   text-align: center;
@@ -203,8 +203,8 @@ export default {
   justify-content: center;
 }
 .text {
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #333333;
   letter-spacing: 0;
 }
@@ -274,7 +274,7 @@ export default {
 }
 .content {
   position: relative;
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 24px;
   color: #333333;
   letter-spacing: 0;

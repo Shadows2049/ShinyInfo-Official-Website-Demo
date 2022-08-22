@@ -48,33 +48,20 @@ export default {
         {
           title: '安全运营平台(SIEM)',
           content:
-            '统一收集分析各类异构日志数据，结合自定义安全规则库，实现安全风险识别、安全资产管理、用户行为分析等全方位安全管控，实现事件调查分析溯源和取证响应等闭环处置 。'
+            '统一收集分析各类异构日志数据，结合自定义安全规则库，实现安全风险识别、安全资产管理、用户行为分析等全方位安全管控，实现事件调查分析溯源和取证响应等闭环处置 。',
+          link: '/SIEM'
         },
         {
           title: '用户行为分析系统(UEBA)',
           content:
-            '使用无监督机器学习提供高级和内部的威胁检测， 帮助组织 发 现未知的威胁和跨设备和应用程序 的异常用户行为。'
+            '使用无监督机器学习提供高级和内部的威胁检测， 帮助组织 发 现未知的威胁和跨设备和应用程序 的异常用户行为。',
+          link: '/UEBA'
         },
         {
           title: '安全编排和自动化响应(SOAR)',
           content:
-            '将安全运营相关的团队、工具和流程通过编排和自动化技术整合在一起，通过安全告警自动化分析与调查、案例处置、协同作战、事件响应，并最终实现高效、有效的安全运营。'
-        },
-        {
-          title: 'data',
-          content: 'data'
-        },
-        {
-          title: 'data',
-          content: 'data'
-        },
-        {
-          title: 'data',
-          content: 'data。'
-        },
-        {
-          title: 'data',
-          content: 'data。'
+            '将安全运营相关的团队、工具和流程通过编排和自动化技术整合在一起，通过安全告警自动化分析与调查、案例处置、协同作战、事件响应，并最终实现高效、有效的安全运营。',
+          link: 'SOAR'
         }
       ]
     }
@@ -106,8 +93,8 @@ export default {
   position: relative;
   max-width: 520px;
   text-indent: 2em;
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #333333;
   letter-spacing: 0;
   line-height: 24px;
@@ -118,8 +105,8 @@ export default {
 }
 .text-2 {
   position: relative;
-  font-family: PSR;
-  font-size: 35px;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
+  font-size: 28px;
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;

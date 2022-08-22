@@ -42,8 +42,8 @@ export default {
 </script>
 <style scoped>
 .title-s {
-  font-family: PSR;
-  font-size: 25px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 24px;
   color: #333333;
   letter-spacing: 0;
 }
@@ -65,8 +65,8 @@ export default {
 .text {
   position: relative;
   width: 400px;
-  font-family: PSR;
-  font-size: 16px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;

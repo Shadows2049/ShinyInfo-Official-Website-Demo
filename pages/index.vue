@@ -115,7 +115,7 @@ export default {
 body,
 td,
 th {
-  font-family: Arial, Helvetica, 'PingFang SC';
+  font-family: Arial, Helvetica, 'PingFang SC', 'Microsoft Yahei';
 }
 .main {
   padding: 0;
@@ -129,7 +129,7 @@ th {
   height: 252px;
 }
 .h-1 {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -137,8 +137,8 @@ th {
   margin-top: 50px;
 }
 .h-2 {
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #666a72;
   letter-spacing: 1px;
   text-align: center;
@@ -146,10 +146,10 @@ th {
 }
 
 .el-menu-item {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   height: 56px;
   line-height: 56px;
-  font-size: 18px;
+  font-size: 16px;
   color: #303133;
   align-items: center;
   justify-content: center;

@@ -59,7 +59,7 @@ export default {
 </script>
 <style scoped>
 .title {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -68,8 +68,8 @@ export default {
 }
 .description {
   position: relative;
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #666a72;
   letter-spacing: 0;
   max-width: 1000px;
@@ -77,7 +77,7 @@ export default {
   margin: 12px auto;
 }
 .title-s {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 24px;
   color: #333333;
   letter-spacing: 0;
@@ -107,8 +107,8 @@ export default {
 }
 .content {
   text-indent: 2em;
-  font-family: PSR;
-  font-size: 17px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;

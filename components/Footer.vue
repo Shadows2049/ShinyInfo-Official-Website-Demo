@@ -99,16 +99,16 @@ export default {
   background: #001641;
 }
 .title {
-  font-family: PSM;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
+  font-size: 16px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 27px;
 }
 .text,
 .text-l {
-  font-family: PSR;
-  font-size: 15px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 30px;
@@ -157,7 +157,7 @@ export default {
   margin-top: 20px;
 }
 .text-small {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 12px;
   color: #ffffff;
   letter-spacing: 0;

@@ -63,7 +63,7 @@ export default {
   justify-content: center;
 }
 .title {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -97,8 +97,8 @@ export default {
 .title-s {
   position: relative;
   top: 60px;
-  font-family: PSR;
-  font-size: 25px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 24px;
   color: #333333;
   letter-spacing: 0;
   text-align: center;
@@ -109,8 +109,8 @@ export default {
   position: relative;
   top: 70px;
   max-width: 205px;
-  font-family: PSR;
-  font-size: 16px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;

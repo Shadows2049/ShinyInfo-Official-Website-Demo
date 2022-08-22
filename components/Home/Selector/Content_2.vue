@@ -46,33 +46,25 @@ export default {
         '可观测具备统一、系统、智能、敏捷、面向业务全栈IT运维，以更高效也更成熟的方式赋能业务和管理，支撑运维数字化持续演进和发展。',
       content: [
         {
-          title: '自动化运维',
-          content: '服务可用性与性能监控可观察运维自动化。'
+          title: '服务智能',
+          content: '服务可用性与性能监控可观察运维自动化。',
+          link: '/Service'
         },
         {
           title: '基础监控',
-          content: '服务可用性与性能监控可观察运维自动化。'
+          content: '监控IT基础设施运行状态。',
+          link: '/Monitor'
         },
         {
           title: '告警平台',
-          content: '管理服务应用和基础设备告警，告警收敛处理。'
+          content: '管理服务应用和基础设备告警，告警收敛处理。',
+          link: 'Alert'
         },
         {
           title: '日志分析',
           content:
-            '从海量数据中快速定位问题。更好的达成新信息化时代的企业数字化转型，提高企业数据价值。'
-        },
-        {
-          title: 'data',
-          content: 'data'
-        },
-        {
-          title: 'data',
-          content: 'data。'
-        },
-        {
-          title: 'data',
-          content: 'data。'
+            '从海量数据中快速定位问题。更好的达成新信息化时代的企业数字化转型，提高企业数据价值。',
+          link: 'Analysis'
         }
       ]
     }
@@ -104,8 +96,8 @@ export default {
   position: relative;
   max-width: 520px;
   text-indent: 2em;
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #333333;
   letter-spacing: 0;
   line-height: 24px;
@@ -118,8 +110,8 @@ export default {
 }
 .text-2 {
   position: relative;
-  font-family: PSR;
-  font-size: 35px;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
+  font-size: 28px;
   color: #1370ee;
   letter-spacing: 0;
   text-align: center;

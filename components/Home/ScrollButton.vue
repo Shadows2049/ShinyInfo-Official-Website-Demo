@@ -16,7 +16,13 @@
           <div v-for="item in content">
             <el-card class="box-card">
               <div slot="header" class="clearfix">
-                <span class="title">{{ item.title }}</span>
+                <span class="title">
+                  <nuxt-link
+                    :to="item.link"
+                    style="text-decoration: none; color: #000"
+                    >{{ item.title }}
+                  </nuxt-link></span
+                >
               </div>
               <div class="content">
                 {{ item.content }}
@@ -126,14 +132,14 @@ export default {
   border-radius: 12px;
 }
 .title {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 20px;
   color: #333333;
   letter-spacing: 0;
 }
 .content {
-  font-family: PSR;
-  font-size: 15px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;
