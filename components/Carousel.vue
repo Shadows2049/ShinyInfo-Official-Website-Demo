@@ -3,7 +3,7 @@
     <el-carousel trigger="click" height="600px">
       <el-carousel-item
         v-for="item in items"
-        :key="item"
+        :key="item.index"
         style="display: flex; align-items: center; justify-content: center"
       >
         <img :src="item.url" alt="" />

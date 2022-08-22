@@ -62,91 +62,91 @@ export default {
       content: [
         {
           cList: [
-            { title: '招商银行', url: '/1.png' },
-            { title: '宁波通商银行', url: '/5.png' },
-            { title: '浦发硅谷银行', url: '/2.png' },
-            { title: '杭州银行信息中心', url: '/6.png' },
-            { title: '兴业银行', url: '/3.png' },
-            { title: '恒生银行', url: '/7.png' },
-            { title: '长江商业银行', url: '/4.png' },
-            { title: '中行上海分行', url: '/8.png' },
-            { title: '东亚银行', url: '/1.png' },
-            { title: '南洋商业银行', url: '/5.png' },
-            { title: '城商行清算中心', url: '/2.png' }
+            { title: '招商银行', url: '/Scroll/1.png' },
+            { title: '宁波通商银行', url: '/Scroll/5.png' },
+            { title: '浦发硅谷银行', url: '/Scroll/2.png' },
+            { title: '杭州银行信息中心', url: '/Scroll/6.png' },
+            { title: '兴业银行', url: '/Scroll/3.png' },
+            { title: '恒生银行', url: '/Scroll/7.png' },
+            { title: '长江商业银行', url: '/Scroll/4.png' },
+            { title: '中行上海分行', url: '/Scroll/8.png' },
+            { title: '东亚银行', url: '/Scroll/1.png' },
+            { title: '南洋商业银行', url: '/Scroll/5.png' },
+            { title: '城商行清算中心', url: '/Scroll/2.png' }
           ]
         },
         {
           cList: [
-            { title: '太平资产', url: '/1.png' },
-            { title: '太平保险', url: '/5.png' },
-            { title: '大地保险', url: '/2.png' },
-            { title: '中宏保险', url: '/6.png' },
-            { title: '昆山健康保险', url: '/3.png' },
-            { title: '安盛保险', url: '/7.png' },
-            { title: '友邦保险', url: '/4.png' },
-            { title: '中美联泰大都会保险', url: '/8.png' },
-            { title: '平安保险', url: '/1.png' }
+            { title: '太平资产', url: '/Scroll/1.png' },
+            { title: '太平保险', url: '/Scroll/5.png' },
+            { title: '大地保险', url: '/Scroll/2.png' },
+            { title: '中宏保险', url: '/Scroll/6.png' },
+            { title: '昆山健康保险', url: '/Scroll/3.png' },
+            { title: '安盛保险', url: '/Scroll/7.png' },
+            { title: '友邦保险', url: '/Scroll/4.png' },
+            { title: '中美联泰大都会保险', url: '/Scroll/8.png' },
+            { title: '平安保险', url: '/Scroll/1.png' }
           ]
         },
         {
           cList: [
-            { title: '外汇交易中心', url: '/1.png' },
-            { title: '上证信息', url: '/5.png' },
-            { title: '长城证券', url: '/2.png' },
-            { title: '富国基金', url: '/6.png' },
-            { title: 'XX基金', url: '/3.png' },
-            { title: '国金证券', url: '/7.png' },
-            { title: '宏信证券', url: '/4.png' },
-            { title: '国泰君安证券', url: '/8.png' }
+            { title: '外汇交易中心', url: '/Scroll/1.png' },
+            { title: '上证信息', url: '/Scroll/5.png' },
+            { title: '长城证券', url: '/Scroll/2.png' },
+            { title: '富国基金', url: '/Scroll/6.png' },
+            { title: 'XX基金', url: '/Scroll/3.png' },
+            { title: '国金证券', url: '/Scroll/7.png' },
+            { title: '宏信证券', url: '/Scroll/4.png' },
+            { title: '国泰君安证券', url: '/Scroll/8.png' }
           ]
         },
         {
           cList: [
-            { title: '展讯通信', url: '/1.png' },
-            { title: '中兴通讯', url: '/5.png' },
-            { title: 'Magna', url: '/2.png' },
-            { title: '安吉星', url: '/6.png' },
-            { title: '江苏核电', url: '/3.png' },
-            { title: '先正达', url: '/7.png' },
-            { title: '瑞声科技', url: '/4.png' },
-            { title: '华为', url: '/8.png' },
-            { title: '小米', url: '/1.png' },
-            { title: '南瑞集团', url: '/5.png' },
-            { title: '中国最大的XX半导体', url: '/2.png' },
-            { title: '瑞萨半导体', url: '/6.png' },
-            { title: '中芯长电', url: '/3.png' },
-            { title: '联合汽车电子', url: '/7.png' }
+            { title: '展讯通信', url: '/Scroll/1.png' },
+            { title: '中兴通讯', url: '/Scroll/5.png' },
+            { title: 'Magna', url: '/Scroll/2.png' },
+            { title: '安吉星', url: '/Scroll/6.png' },
+            { title: '江苏核电', url: '/Scroll/3.png' },
+            { title: '先正达', url: '/Scroll/7.png' },
+            { title: '瑞声科技', url: '/Scroll/4.png' },
+            { title: '华为', url: '/Scroll/8.png' },
+            { title: '小米', url: '/Scroll/1.png' },
+            { title: '南瑞集团', url: '/Scroll/5.png' },
+            { title: '中国最大的XX半导体', url: '/Scroll/2.png' },
+            { title: '瑞萨半导体', url: '/Scroll/6.png' },
+            { title: '中芯长电', url: '/Scroll/3.png' },
+            { title: '联合汽车电子', url: '/Scroll/7.png' }
           ]
         },
         {
           cList: [
-            { title: '货车帮', url: '/1.png' },
-            { title: '中国远洋Cosco', url: '/5.png' },
-            { title: '远成物流', url: '/2.png' }
+            { title: '货车帮', url: '/Scroll/1.png' },
+            { title: '中国远洋Cosco', url: '/Scroll/5.png' },
+            { title: '远成物流', url: '/Scroll/2.png' }
           ]
         },
         {
           cList: [
-            { title: 'OFO', url: '/1.png' },
-            { title: '印象笔记', url: '/5.png' },
-            { title: '京东', url: '/2.png' },
-            { title: '百度', url: '/6.png' },
-            { title: '今日头条', url: '/3.png' },
-            { title: '拉卡拉', url: '/7.png' },
-            { title: '越秀金控集团', url: '/4.png' },
-            { title: '招联消费金融', url: '/8.png' },
-            { title: '快钱', url: '/1.png' }
+            { title: 'OFO', url: '/Scroll/1.png' },
+            { title: '印象笔记', url: '/Scroll/5.png' },
+            { title: '京东', url: '/Scroll/2.png' },
+            { title: '百度', url: '/Scroll/6.png' },
+            { title: '今日头条', url: '/Scroll/3.png' },
+            { title: '拉卡拉', url: '/Scroll/7.png' },
+            { title: '越秀金控集团', url: '/Scroll/4.png' },
+            { title: '招联消费金融', url: '/Scroll/8.png' },
+            { title: '快钱', url: '/Scroll/1.png' }
           ]
         },
         {
           cList: [
-            { title: '玫琳凯', url: '/1.png' },
-            { title: '天学网', url: '/5.png' },
-            { title: '万国数据', url: '/2.png' },
-            { title: '全家', url: '/6.png' },
-            { title: '华润置地', url: '/3.png' },
-            { title: '金龙客车', url: '/7.png' },
-            { title: 'UR', url: '/4.png' }
+            { title: '玫琳凯', url: '/Scroll/1.png' },
+            { title: '天学网', url: '/Scroll/5.png' },
+            { title: '万国数据', url: '/Scroll/2.png' },
+            { title: '全家', url: '/Scroll/6.png' },
+            { title: '华润置地', url: '/Scroll/3.png' },
+            { title: '金龙客车', url: '/Scroll/7.png' },
+            { title: 'UR', url: '/Scroll/4.png' }
           ]
         }
       ],

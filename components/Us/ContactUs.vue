@@ -20,73 +20,78 @@
 
       <div class="form_">
         <div class="movable">
-          <div class="title">预约产品体验</div>
-          <el-form
-            :model="ruleForm"
-            :rules="rules"
-            ref="ruleForm"
-            style="margin-top: 20px"
-          >
-            <div class="group1">
-              <el-form-item prop="name">
-                <el-input
-                  v-model="ruleForm.name"
-                  placeholder="*请输入您的姓名"
-                  style="width: 350px"
-                ></el-input>
-              </el-form-item>
-              <el-form-item
-                prop="email"
-                style="width: 350px; margin-left: 20px"
-              >
-                <el-input
-                  v-model="ruleForm.email"
-                  placeholder="*请输入您的邮箱"
+          <div>
+            <div class="title">预约产品体验</div>
+            <el-form
+              :model="ruleForm"
+              :rules="rules"
+              ref="ruleForm"
+              style="margin-top: 20px"
+            >
+              <div class="group1">
+                <el-form-item prop="name">
+                  <el-input
+                    v-model="ruleForm.name"
+                    placeholder="*请输入您的姓名"
+                    style="width: 350px"
+                  ></el-input>
+                </el-form-item>
+                <el-form-item
+                  prop="email"
+                  style="width: 350px; margin-left: 20px"
                 >
-                </el-input>
-              </el-form-item>
-            </div>
+                  <el-input
+                    v-model="ruleForm.email"
+                    placeholder="*请输入您的邮箱"
+                  >
+                  </el-input>
+                </el-form-item>
+              </div>
 
-            <div class="group2">
-              <el-form-item prop="phone">
-                <el-input
-                  v-model.number="ruleForm.phone"
-                  placeholder="*请输入您的电话"
-                  style="width: 350px"
-                ></el-input>
-              </el-form-item>
+              <div class="group2">
+                <el-form-item prop="phone">
+                  <el-input
+                    v-model.number="ruleForm.phone"
+                    placeholder="*请输入您的电话"
+                    style="width: 350px"
+                  ></el-input>
+                </el-form-item>
+
+                <el-form-item
+                  prop="company"
+                  style="width: 350px; margin-left: 20px"
+                >
+                  <el-input v-model="ruleForm.company" placeholder="*公司名称">
+                  </el-input>
+                </el-form-item>
+              </div>
 
               <el-form-item
-                prop="company"
-                style="width: 350px; margin-left: 20px"
+                prop="desc"
+                style="width: 720px; max-height: 1000px"
               >
-                <el-input v-model="ruleForm.company" placeholder="*公司名称">
-                </el-input>
+                <el-input
+                  type="textarea"
+                  v-model="ruleForm.desc"
+                  placeholder="目前在运维领域的痛点"
+                ></el-input>
               </el-form-item>
-            </div>
-
-            <el-form-item prop="desc">
-              <el-input
-                type="textarea"
-                v-model="ruleForm.desc"
-                placeholder="目前在运维领域的痛点"
-              ></el-input>
-            </el-form-item>
-            <el-form-item style="width: 152px; margin-left: auto">
-              <el-button
-                type="primary"
-                @click="submitForm('ruleForm')"
-                style="
-                  background: #1370ee;
-                  box-shadow: 3px 3px 20px 0 rgba(19, 112, 238, 0.2);
-                  border-radius: 30px;
-                  width: 152px;
-                  height: 60px;
-                "
-                ><div class="text-s">提交预约</div></el-button
-              >
-            </el-form-item>
-          </el-form>
+              <el-form-item style="width: 152px; margin-left: 568px">
+                <el-button
+                  type="primary"
+                  @click="submitForm('ruleForm')"
+                  style="
+                    background: #1370ee;
+                    box-shadow: 3px 3px 20px 0 rgba(19, 112, 238, 0.2);
+                    border-radius: 30px;
+                    width: 152px;
+                    height: 60px;
+                  "
+                  ><div class="text-s">提交预约</div></el-button
+                >
+              </el-form-item>
+            </el-form>
+          </div>
         </div>
       </div>
     </div>
@@ -212,11 +217,10 @@ export default {
 .left {
   position: relative;
   top: 0;
-  width: 375px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 40px;
 }
 .left1 {
   display: block;
@@ -228,6 +232,10 @@ export default {
   background: #ffffff;
   border-radius: 12px;
   height: auto;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 :deep(.el-input__inner) {
   background: #f5f7fa;
@@ -263,5 +271,8 @@ export default {
   font-size: 20px;
   color: #ffffff;
   letter-spacing: 0;
+}
+:deep(textarea.el-textarea__inner) {
+  max-height: 700px;
 }
 </style>
