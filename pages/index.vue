@@ -28,9 +28,9 @@
               @click="changeFlag(1)"
             >
               <img
-                src="/Home/IT运维管理.svg"
+                src="/Home/IT运维管理.png"
                 alt=""
-                style="margin-right: 12px; margin-bottom: 8px"
+                style="margin-right: 12px; margin-bottom: 8px; width: 56px"
               />
               IT运维管理</el-menu-item
             >
@@ -39,16 +39,16 @@
               style="margin-right: 250px; height: 68px"
               @click="changeFlag(2)"
               ><img
-                src="/Home/可观察性.svg"
+                src="/Home/可观察性.png"
                 alt=""
-                style="margin-right: 12px; margin-bottom: 8px"
+                style="margin-right: 12px; margin-bottom: 8px; width: 56px"
               />可观察性</el-menu-item
             >
             <el-menu-item index="3" @click="changeFlag(3)" style="height: 68px"
               ><img
-                src="/Home/新一代安全运营.svg"
+                src="/Home/新一代安全运营.png"
                 alt=""
-                style="margin-right: 12px; margin-bottom: 8px"
+                style="margin-right: 12px; margin-bottom: 8px; width: 56px"
               />新一代安全运营</el-menu-item
             >
           </el-menu>
@@ -112,13 +112,10 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family: PSM;
-  src: url('@/fonts/PingFang-Medium.ttf');
-}
-@font-face {
-  font-family: PSR;
-  src: url('@/fonts/PingFangSC-Regular.ttf');
+body,
+td,
+th {
+  font-family: Arial, Helvetica, 'PingFang SC';
 }
 .main {
   padding: 0;

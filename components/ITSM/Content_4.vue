@@ -11,32 +11,32 @@ export default {
       data: [
         {
           content: '符合国际标准理念',
-          url: '/General/1.svg',
+          url: '/General/1.png',
           text: '遵循ITIL 4实践和ITSS、ISO20000等实践标准落地。'
         },
         {
           content: '工单自动化',
-          url: '/General/2.svg',
+          url: '/General/2.png',
           text: ''
         },
         {
           content: '内置典型的ITIL流程模型',
-          url: '/General/3.svg',
+          url: '/General/3.png',
           text: ''
         },
         {
           content: '低代码引擎',
-          url: '/General/4.svg',
+          url: '/General/4.png',
           text: ''
         },
         {
           content: '动态流程引擎',
-          url: '/General/5.svg',
+          url: '/General/5.png',
           text: ''
         },
         {
           content: 'ESM企业服务管理',
-          url: '/General/6.svg',
+          url: '/General/6.png',
           text: '可扩展到企业服务流程，为企业提供统一的流程平台。'
         }
       ],

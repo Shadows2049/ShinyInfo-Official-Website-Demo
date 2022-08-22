@@ -82,17 +82,17 @@ export default {
         {
           title: '流程消费',
           content: '流程关联配置项，通过流程进行配置项更新。',
-          url: '/CMDB/标题符号.svg'
+          url: '/CMDB/标题符号.png'
         },
         {
           title: '自动化消费',
           content: '基于CMDB构建自动化装机、应用发布、主机管理、场景脚本管理。',
-          url: '/CMDB/标题符号.svg'
+          url: '/CMDB/标题符号.png'
         },
         {
           title: '监控消费',
           content: '基于CMDB机柜监控、监控区域总览图、监控热图。',
-          url: '/CMDB/标题符号.svg'
+          url: '/CMDB/标题符号.png'
         }
       ],
       text1:

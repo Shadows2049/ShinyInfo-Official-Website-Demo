@@ -9,7 +9,7 @@
           <div class="box-s">
             <div class="text-s">
               <div class="pic-s">
-                <img :src="item.url" alt="" />
+                <img :src="item.url" alt="" style="width: 88px" />
               </div>
               <div class="content-s">
                 {{ item.content }}<br />

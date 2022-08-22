@@ -9,7 +9,7 @@
           <div class="box-s">
             <div class="text-s">
               <div class="pic-s">
-                <img :src="item.url" alt="" />
+                <img :src="item.url" alt="" style="width: 88px" />
               </div>
               <div class="content-s">
                 {{ item.content }}<br />
@@ -29,17 +29,17 @@ export default {
       data: [
         {
           content: 'IT资源统一管理',
-          url: '/General/1.svg',
+          url: '/General/1.png',
           text: 'CMDB本质上就是一个数据库，可以开放数据服务给到各个系统来调用和访问的数据库，变更配置数据同步各个系统。'
         },
         {
           content: '自动发现IT资产配置信息释放人力成本',
-          url: '/General/2.svg',
+          url: '/General/2.png',
           text: 'CMDB是运维工具建设的核心，建设完善了才能够建设自动化。通过自动发现脚本，自动采集配置信息，规范化、合理化、人力减少化，推动IT资产与业务目标的融合。'
         },
         {
           content: 'CI关联关系可视化IT资源',
-          url: '/General/3.svg',
+          url: '/General/3.png',
           text: '建立从机房位置视角、网络环境视角、业务逻辑视角等可视化展现IT设备和业务之间的关联关系。'
         }
       ]

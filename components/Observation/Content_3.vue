@@ -76,19 +76,19 @@ export default {
         {
           title: '大规模上下文数据载入',
           content: '收集、管理、分析、关联和搜索多个来源的日志数据。',
-          url: '/Observation/大规模上下文数据载入.svg'
+          url: '/Observation/大规模上下文数据载入.png'
         },
         {
           title: '直观、无代码的日志探索',
           content:
             '只需点击即可搜索、过滤和可视化日志数据。通过指标仪表板中的上下文故障排除减少 MTTR。',
-          url: '/Observation/直观无代码的日志探索.svg'
+          url: '/Observation/直观无代码的日志探索.png'
         },
         {
           title: '生产调试持续改进',
           content:
             '任何给定时间段的过滤和查看日志。根据定义的属性获取实时视图。',
-          url: '/Observation/生产调试持续改进.svg'
+          url: '/Observation/生产调试持续改进.png'
         }
       ],
       text1: '快速、直观的查找应用程序和基础架构日志，对安全事件的深入洞察。'

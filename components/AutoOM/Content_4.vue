@@ -11,32 +11,32 @@ export default {
       data: [
         {
           content: '强大的数据采集能力CMDB联动消费',
-          url: '/General/1.svg',
+          url: '/General/1.png',
           text: ''
         },
         {
           content: '跨平台流程整合',
-          url: '/General/2.svg',
+          url: '/General/2.png',
           text: ''
         },
         {
           content: '流程执行过程和结果可视化',
-          url: '/General/3.svg',
+          url: '/General/3.png',
           text: ''
         },
         {
           content: '提供二次开发接口，可定制化编排',
-          url: '/General/4.svg',
+          url: '/General/4.png',
           text: ''
         },
         {
           content: '批量分发，自由选择目标路径',
-          url: '/General/5.svg',
+          url: '/General/5.png',
           text: ''
         },
         {
           content: '图形和列表展示灵活切换',
-          url: '/General/6.svg',
+          url: '/General/6.png',
           text: ''
         }
       ]

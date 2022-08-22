@@ -11,32 +11,32 @@ export default {
       data: [
         {
           content: '可视化展示IT资源和系统运行状态',
-          url: '/General/1.svg',
+          url: '/General/1.png',
           text: ''
         },
         {
           content: '平台自身监测能力',
-          url: '/General/2.svg',
+          url: '/General/2.png',
           text: ''
         },
         {
           content: '指标关联分析，缩短问题定位时间',
-          url: '/General/3.svg',
+          url: '/General/3.png',
           text: ''
         },
         {
           content: '监控与CMDB无缝联动',
-          url: '/General/4.svg',
+          url: '/General/4.png',
           text: ''
         },
         {
           content: '监控指标库管理',
-          url: '/General/5.svg',
+          url: '/General/5.png',
           text: ''
         },
         {
           content: '全局视图展示',
-          url: '/General/6.svg',
+          url: '/General/6.png',
           text: ''
         }
       ],

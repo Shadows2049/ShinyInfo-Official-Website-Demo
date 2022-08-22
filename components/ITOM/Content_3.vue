@@ -96,15 +96,15 @@ export default {
       items: [
         {
           content: 'IT资源统一管理，随时查看IT资源及其运行情况',
-          url: '/ITOM/标题符号.svg'
+          url: '/ITOM/标题符号.png'
         },
         {
           content: '自动发现IT资产配置信息释放人力成本',
-          url: '/ITOM/标题符号.svg'
+          url: '/ITOM/标题符号.png'
         },
         {
           content: 'CI关联关系可视化IT资源',
-          url: '/ITOM/标题符号.svg'
+          url: '/ITOM/标题符号.png'
         }
       ],
       text2_1: 'IT资源统一管理，随时查看IT资源及其运行情况',
