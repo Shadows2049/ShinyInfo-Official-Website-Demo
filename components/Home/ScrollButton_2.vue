@@ -3,12 +3,7 @@
     <i @click="btnCilck(307)" class="left-btn">
       <img src="/Home/上一个.svg" alt=""
     /></i>
-    <div
-      ref="scrollOuter"
-      class="scroll-box"
-      @mouseScroll.prevent="handlescroll"
-      @mousewheel.prevent="handlescroll"
-    >
+    <div ref="scrollOuter" class="scroll-box">
       <div
         ref="scrollBody"
         class="scroll-body"
