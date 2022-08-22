@@ -215,12 +215,11 @@ export default {
   margin-bottom: 100px;
 }
 .left {
-  position: relative;
-  top: 0;
   width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -65px;
 }
 .left1 {
   display: block;
