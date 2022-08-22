@@ -35,11 +35,13 @@
                   style="width: 350px"
                 ></el-input>
               </el-form-item>
-              <el-form-item prop="email">
+              <el-form-item
+                prop="email"
+                style="width: 350px; margin-left: 20px"
+              >
                 <el-input
                   v-model="ruleForm.email"
                   placeholder="*请输入您的邮箱"
-                  style="width: 350px; margin-left: 20px"
                 >
                 </el-input>
               </el-form-item>
@@ -54,12 +56,11 @@
                 ></el-input>
               </el-form-item>
 
-              <el-form-item prop="company">
-                <el-input
-                  v-model="ruleForm.company"
-                  placeholder="*公司名称"
-                  style="width: 350px; margin-left: 20px"
-                >
+              <el-form-item
+                prop="company"
+                style="width: 350px; margin-left: 20px"
+              >
+                <el-input v-model="ruleForm.company" placeholder="*公司名称">
                 </el-input>
               </el-form-item>
             </div>
