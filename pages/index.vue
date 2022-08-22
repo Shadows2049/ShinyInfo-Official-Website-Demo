@@ -1,7 +1,9 @@
 <template>
   <div class="main">
     <!-- 走马灯 -->
-    <carousel />
+    <div class="carousel">
+      <carousel />
+    </div>
     <!-- 内容 -->
     <el-container class="content-1">
       <el-header height="184px">
@@ -120,6 +122,9 @@ export default {
 }
 .main {
   padding: 0;
+}
+.carousel {
+  background-color: #d0e2fc;
 }
 .content-1 {
   background: #ffffff;
