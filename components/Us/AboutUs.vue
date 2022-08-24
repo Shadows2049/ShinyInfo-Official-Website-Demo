@@ -45,7 +45,7 @@ export default {
   justify-content: center;
 }
 .title {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -57,8 +57,8 @@ export default {
   position: relative;
   max-width: 1000px;
   text-indent: 2em;
-  font-family: PSR;
-  font-size: 18px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 16px;
   color: #333333;
   letter-spacing: 0;
   line-height: 24px;

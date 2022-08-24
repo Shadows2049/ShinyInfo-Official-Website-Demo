@@ -8,11 +8,7 @@
     </el-header>
     <el-main class="main">
       <div class="content">
-        <img
-          src="/UEBA/用户行为分析系统(UEBA).png"
-          alt=""
-          style="width: 800px"
-        />
+        <img src="/UEBA/replacement.png" alt="" style="width: 800px" />
       </div>
     </el-main>
   </el-container>

@@ -96,15 +96,15 @@ export default {
       items: [
         {
           content: 'IT资源统一管理，随时查看IT资源及其运行情况',
-          url: '/ITOM/标题符号.png'
+          url: '/ITOM/标题符号.svg'
         },
         {
           content: '自动发现IT资产配置信息释放人力成本',
-          url: '/ITOM/标题符号.png'
+          url: '/ITOM/标题符号.svg'
         },
         {
           content: 'CI关联关系可视化IT资源',
-          url: '/ITOM/标题符号.png'
+          url: '/ITOM/标题符号.svg'
         }
       ],
       text2_1: 'IT资源统一管理，随时查看IT资源及其运行情况',
@@ -119,7 +119,7 @@ export default {
   height: 3400px;
 }
 .title {
-  font-family: PSM;
+  font-family: Arial, Helvetica, 'PingFang SC-Medium', 'Microsoft Yahei';
   font-size: 36px;
   color: #1370ee;
   letter-spacing: 0;
@@ -140,11 +140,11 @@ export default {
 .textB {
   position: relative;
   max-width: 400px;
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 24px;
   color: #333333;
   letter-spacing: 0;
-  line-height: 21px;
+  line-height: 24px;
 }
 .pic2,
 .pic4 {
@@ -156,7 +156,7 @@ export default {
   box-shadow: 3px 3px 40px 0 rgba(19, 112, 238, 0.2);
 }
 .title-s {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   font-size: 20px;
   color: #333333;
   letter-spacing: 0;
@@ -200,8 +200,8 @@ export default {
   margin-top: 20px;
 }
 .text-s {
-  font-family: PSR;
-  font-size: 16px;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
+  font-size: 14px;
   color: #666a72;
   letter-spacing: 0;
   line-height: 21px;

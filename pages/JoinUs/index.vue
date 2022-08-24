@@ -103,10 +103,10 @@ th {
   justify-content: center;
 }
 .el-menu-item {
-  font-family: PSR;
+  font-family: Arial, Helvetica, 'PingFang SC-Regular', 'Microsoft Yahei';
   height: 56px;
   line-height: 56px;
-  font-size: 26px;
+  font-size: 24px;
   color: #ffffff;
   align-items: center;
   justify-content: center;
