@@ -94,7 +94,7 @@ More information about the usage of this directory in [the documentation](https:
 
 Nuxt.js配置文件位于`/nuxt.config.js`,本地部署默认端口3000。
 
-插件位于`/plugins`目录下，本项目大量使用[ElementUI](https://element.eleme.cn/#/zh-CN)开源组件。
+插件位于`/plugins`目录下，本项目主要使用[ElementUI](https://element.eleme.cn/#/zh-CN)开源组件。
 
 各依赖文件版本位于`/package.json`,初始化项目控制台输入`$ npm install`自动安装。
 
