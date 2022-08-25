@@ -72,23 +72,23 @@ More information about the usage of this directory in [the documentation](https:
 
 本项目采用static静态部署
 
-Pages目录下为各页面文件，每个页面文件按照内容和布局拆分成多个组件（Content1预留给页面顶部图片）
+`/pages`目录下为各页面文件，每个页面文件按照内容和布局拆分成多个组件（`Content1.vue`预留给页面顶部图片）
 
-组件位于Components目录下,设置有5个公用组件：
+组件位于`/components`目录下,设置有5个公用组件：
 
-			 Carousel.vue---跑马灯
+			 `Carousel.vue`---跑马灯
 
-			 ContentB.vue---多数页面使用的左右交错内容介绍
+			 `ContentB.vue`---多数页面使用的左右交错内容介绍
 
-			 Navigation.vue---顶部导航栏
+			 `Navigation.vue`---顶部导航栏
 
-			 Footer.vue---底部导航栏
+			 `Footer.vue`---底部导航栏
 
-			 Products.vue---相关产品
+			 `Products.vue`---相关产品
 
-图片资源位于Static目录下。
+图片资源位于`/static`目录下。
 
-路由位于.nuxt目录下router.js，为Nuxt.js自动生成。
+路由位于`/.nuxt`目录下`router.js`，为Nuxt.js自动生成。
 
-布局文件位于layouts目录下，设定了顶部和底部导航栏。
+布局文件位于`/layouts`目录下，设定了顶部和底部导航栏。
 
