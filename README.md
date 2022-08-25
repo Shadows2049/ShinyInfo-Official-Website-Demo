@@ -88,7 +88,7 @@ More information about the usage of this directory in [the documentation](https:
 
 图片资源位于`/static`目录下。
 
-路由位于`/.nuxt`目录下`router.js`，为Nuxt.js自动生成。
+路由位于`/.nuxt`目录下`router.js`，由Nuxt.js自动生成。
 
 布局文件位于`/layouts`目录下，设定了顶部和底部导航栏。
 
