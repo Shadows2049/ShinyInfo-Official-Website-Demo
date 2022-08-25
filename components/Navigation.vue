@@ -57,7 +57,7 @@
 <script>
 export default {
   computed: {
-    // 我们使用计算属性来获取到当前点击的菜单的路由路径，然后设置default-active中的值
+    // 使用计算属性来获取到当前点击的菜单的路由路径，然后设置default-active中的值
     // 使得菜单在载入时就能对应高亮
     activeMenu() {
       const route = this.$route
