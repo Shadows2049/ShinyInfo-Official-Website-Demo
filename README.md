@@ -98,6 +98,14 @@ Nuxt.js配置文件位于`/nuxt.config.js`,本地部署默认端口3000。
 
 各依赖文件版本位于`/package.json`,初始化项目控制台输入`$ npm install`自动安装。
 
+### `遗留问题`
+
+首页`服务客户`滚动卡片：`/components/Home/ScrollButton_2.vue`的卡片排布逻辑需要改进。
+
+解决方案下`IT运维管理`，`可观察性`与`新一代安全运营平台`的`相关产品`：·/components/ITOM/Content_4.vue`，`/components/Observation/Content_4.vue`与`/components/Platform/Content_3.vue`，卡片内链接图标`>`悬浮触发动画效果暂未实现
+
 ### `Github 仓库地址`
 
 https://github.com/Shadows2049/ShinyInfo-Official-Website-Demo
+
+
