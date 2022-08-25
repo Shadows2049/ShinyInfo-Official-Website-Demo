@@ -92,3 +92,6 @@ More information about the usage of this directory in [the documentation](https:
 
 布局文件位于`/layouts`目录下，设定了顶部和底部导航栏。
 
+### `Github 仓库文件`
+
+https://github.com/Shadows2049/ShinyInfo-Official-Website-Demo
